@@ -182,14 +182,4 @@ Hard 子集（48 条，Naive@5 未命中）上 HyDE 仅救回 **2/48**，MRR≈0
 
 > 完整报告见 `data/eval_report_200.json`。Naive 在本数据集上优于 HyDE 的原因分析、Hard 子集评测与后续改进路线，见 **[docs/eval_analysis.md](docs/eval_analysis.md)**。
 
-## 评估结果（设计参考）
-
-以下为 README 初版设计目标，**非** `eval_report_200.json` 实测值；实测请以 [docs/eval_analysis.md](docs/eval_analysis.md) 为准。
-
-| 方案      | Faithfulness | MRR@5 |
-| --------- | ------------ | ----- |
-| Naive RAG | 0.81         | 0.64  |
-| HyDE      | 0.83         | 0.71  |
-
-> HyDE 在歧义查询、Query–文档表述差距大的场景下更有优势；单文档抽取式 QA 上 Naive 往往已足够强。
 
