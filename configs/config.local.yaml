@@ -1,0 +1,83 @@
+# RAG 企业知识库问答系统 - 本地配置（Mac M5 / 24GB 内存优化）
+
+# ── 内存策略 ──────────────────────────────────────────────
+# Mac 24GB：通过 batch_size / index_build_device 控制内存，勿单独设置 PYTORCH_MPS_HIGH_WATERMARK_RATIO=0.65
+memory:
+  doc_batch_size: 32        # 建索引时每批加载的文件数
+  eval_gc_interval: 20      # 评测每 N 条清理一次 MPS 缓存
+
+# ── 文档处理 ──────────────────────────────────────────────
+ingestion:
+  docs_dir: "data/eval_docs/docs"
+  supported_formats: [".pdf", ".docx", ".txt", ".md"]
+  chunk_size: 512          # token 数
+  chunk_overlap: 64        # overlap token 数
+  index_path: "data/faiss_index"
+  metadata_fields: ["source", "page", "title"]
+
+# ── 向量化模型 ────────────────────────────────────────────
+# 若仍 OOM，可换为 BAAI/bge-base-zh-v1.5（约省 800MB 显存）
+embedding:
+  model_name: "BAAI/bge-large-zh-v1.5"
+  device: "cpu"            # 评测与 Ollama 并存时用 cpu，避免 MPS 内存争抢导致 502
+  index_build_device: "cpu"  # 建索引专用：cpu 更稳，避免 MPS 水位线/OOM（较慢但安全）
+  batch_size: 8            # 向量化批大小（Mac 24GB 建议 4~8）
+  normalize: true
+
+# ── 检索 ─────────────────────────────────────────────────
+retrieval:
+  top_k: 8                  # 初筛候选数（降低可减少 reranker 内存峰值）
+  rerank_top_k: 3           # Reranker 后保留数
+  mode: "hybrid"              # naive / hyde / adaptive_hyde / hybrid
+  hyde:
+    num_hypothetical_docs: 1  # Mac 本地建议 1；有算力可改 3
+    temperature: 0.1           # 降低假设文档胡编
+    max_tokens: 200
+    fusion_alpha: 0.6         # 1.0=纯 Naive 向量，0.0=纯 HyDE 向量
+  adaptive_hyde:
+    # L2 距离阈值：top-1 距离大于此值 → 检索置信不足 → 触发 HyDE
+    distance_threshold: 0.72  # 由全量 Naive 距离分布标定（原 0.45 触发率 99%）
+    # top-1 与 top-2 距离差小于此值 → 结果歧义 → 触发 HyDE
+    score_gap_threshold: 0.04
+  hybrid:
+    merge_top_k: 12           # Naive∪HyDE 并集截断后再 Rerank
+    use_adaptive_gate: true   # true=仅 Adaptive 触发时才并入 HyDE 结果
+
+reranker:
+  model_name: "BAAI/bge-reranker-large"
+  # 若仍 OOM，可换为 BAAI/bge-reranker-base
+  device: "cpu"             # 与 Ollama 并存时用 cpu，把 GPU 留给 LLM
+  batch_size: 2             # 精排 micro-batch（原一次性处理全部候选）
+  max_length: 256           # 原 512，缩短 query-doc 拼接长度
+
+# ── LLM ──────────────────────────────────────────────────
+### ollama pull qwen2.5:1.5b
+llm:
+  model_name: "qwen2.5:1.5b"
+  api_base: "http://127.0.0.1:11434/v1"
+  api_key: "EMPTY"
+  temperature: 0.1
+  max_tokens: 512           # 原 1024，降低生成长度
+  stream: true
+
+# ── 服务 ─────────────────────────────────────────────────
+server:
+  host: "0.0.0.0"
+  port: 8000
+  workers: 1                # Mac 本地必须 1，多 worker 会重复加载模型
+  timeout: 60
+
+# ── Redis 缓存 ───────────────────────────────────────────
+redis:
+  host: "localhost"
+  port: 6379
+  db: 0
+  password: ""
+  ttl: 3600
+  max_connections: 5        # 原 20，本地够用
+
+# ── 日志 ─────────────────────────────────────────────────
+logging:
+  level: "INFO"
+  file: "logs/rag_system.log"
+  rotation: "100 MB"

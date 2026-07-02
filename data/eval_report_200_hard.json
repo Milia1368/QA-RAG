@@ -1,0 +1,1565 @@
+{
+  "naive": {
+    "mode": "naive",
+    "mrr_at_5": 0.0,
+    "recall_at_5": 0.0,
+    "avg_faithfulness": 0.0,
+    "avg_answer_accuracy": 0.0,
+    "avg_latency_ms": 1067.6,
+    "num_samples": 48,
+    "hyde_trigger_rate": null,
+    "details": [
+      {
+        "query": "有多少支代表团参加了开幕式？",
+        "doc_id": "64fa9b2cb82641eb8ecbeeb0",
+        "reference_answer": "18支",
+        "answer_preview": "",
+        "answer_accuracy": 0.0,
+        "faithfulness": 0.0,
+        "latency_ms": 2679.4,
+        "retrieved_ids": [
+          "64fa9b2fb82641eb8ecc01bf",
+          "64fa9b2cb82641eb8ecbeec0",
+          "64fa9b28b82641eb8ecbe7b0",
+          "64fa9b2db82641eb8ecbf587",
+          "64fa9b2eb82641eb8ecbfd10"
+        ],
+        "hit_at_5": false
+      },
+      {
+        "query": "会谈的主要内容是什么？",
+        "doc_id": "64fa9b2bb82641eb8ecbed1d",
+        "reference_answer": "合力打击缅境内的电诈网赌等犯罪活动",
+        "answer_preview": "",
+        "answer_accuracy": 0.0,
+        "faithfulness": 0.0,
+        "latency_ms": 949.1,
+        "retrieved_ids": [
+          "64fa9b2fb82641eb8ecc017e",
+          "64fa9b28b82641eb8ecbe896",
+          "64fa9b32b82641eb8ecc08d8",
+          "64fa9b30b82641eb8ecc0376",
+          "64fa9b27b82641eb8ecbe449"
+        ],
+        "hit_at_5": false
+      },
+      {
+        "query": "参加交流活动的是哪个代表团？",
+        "doc_id": "64fa9b2db82641eb8ecbf867",
+        "reference_answer": "汕头市青年代表团",
+        "answer_preview": "",
+        "answer_accuracy": 0.0,
+        "faithfulness": 0.0,
+        "latency_ms": 1046.0,
+        "retrieved_ids": [
+          "64fa9b2bb82641eb8ecbed58",
+          "64fa9b2db82641eb8ecbf5e0",
+          "64fa9b2db82641eb8ecbf70a",
+          "64fa9b2db82641eb8ecbf4fa",
+          "64fa9b2db82641eb8ecbf56b"
+        ],
+        "hit_at_5": false
+      },
+      {
+        "query": "发放的补助资金金额是多少？",
+        "doc_id": "64fa9b2eb82641eb8ecbfc2f",
+        "reference_answer": "14.9万元",
+        "answer_preview": "",
+        "answer_accuracy": 0.0,
+        "faithfulness": 0.0,
+        "latency_ms": 1172.2,
+        "retrieved_ids": [
+          "64fa9b2bb82641eb8ecbebc1",
+          "64fa9b31b82641eb8ecc0662",
+          "64fa9b2bb82641eb8ecbebda",
+          "64fa9b31b82641eb8ecc081c",
+          "64fa9b31b82641eb8ecc078e"
+        ],
+        "hit_at_5": false
+      },
+      {
+        "query": "受到明显风雨影响的城市有哪些？",
+        "doc_id": "64fa9b31b82641eb8ecc06ef",
+        "reference_answer": "合肥、淮北、亳州、宿州、阜阳、六安、宣城、池州、安庆、黄山市",
+        "answer_preview": "",
+        "answer_accuracy": 0.0,
+        "faithfulness": 0.0,
+        "latency_ms": 1136.5,
+        "retrieved_ids": [
+          "64fa9b2eb82641eb8ecbfb49",
+          "64fa9b31b82641eb8ecc06fc",
+          "64fa9b31b82641eb8ecc073c",
+          "64fa9b31b82641eb8ecc0838",
+          "64fa9b2fb82641eb8ecc0106"
+        ],
+        "hit_at_5": false
+      },
+      {
+        "query": "在防范工作中，重点排查了哪些安全风险隐患？",
+        "doc_id": "64fa9b28b82641eb8ecbe8e7",
+        "reference_answer": "防洪水内涝、防山体滑坡、建筑施工、生产安全、燃气安全、消防安全",
+        "answer_preview": "",
+        "answer_accuracy": 0.0,
+        "faithfulness": 0.0,
+        "latency_ms": 1162.7,
+        "retrieved_ids": [
+          "64fa9b31b82641eb8ecc06d8",
+          "64fa9b31b82641eb8ecc0822",
+          "64fa9b31b82641eb8ecc06bf",
+          "64fa9b31b82641eb8ecc0774",
+          "64fa9b31b82641eb8ecc06ff"
+        ],
+        "hit_at_5": false
+      },
+      {
+        "query": "飞机的型号是什么？",
+        "doc_id": "64fa9b2cb82641eb8ecbf06a",
+        "reference_answer": "Piper PA-28切诺基型",
+        "answer_preview": "",
+        "answer_accuracy": 0.0,
+        "faithfulness": 0.0,
+        "latency_ms": 1235.4,
+        "retrieved_ids": [
+          "64fa9b2cb82641eb8ecbf10f",
+          "64fa9b30b82641eb8ecc042e",
+          "64fa9b29b82641eb8ecbea3b",
+          "64fa9b31b82641eb8ecc0580",
+          "64fa9b32b82641eb8ecc0877"
+        ],
+        "hit_at_5": false
+      },
+      {
+        "query": "哪个使馆提出了建议？",
+        "doc_id": "64fa9b2eb82641eb8ecbfcb2",
+        "reference_answer": "中国驻中非大使馆",
+        "answer_preview": "",
+        "answer_accuracy": 0.0,
+        "faithfulness": 0.0,
+        "latency_ms": 1010.1,
+        "retrieved_ids": [
+          "64fa9b2db82641eb8ecbf4fd",
+          "64fa9b2fb82641eb8ecc00fa",
+          "64fa9b27b82641eb8ecbe3c3",
+          "64fa9b2db82641eb8ecbf5d0",
+          "64fa9b2cb82641eb8ecbf1e6"
+        ],
+        "hit_at_5": false
+      },
+      {
+        "query": "停产是指什么？",
+        "doc_id": "64fa9b2bb82641eb8ecbeda4",
+        "reference_answer": "停止生产",
+        "answer_preview": "",
+        "answer_accuracy": 0.0,
+        "faithfulness": 0.0,
+        "latency_ms": 1318.2,
+        "retrieved_ids": [
+          "64fa9b2eb82641eb8ecbfca0",
+          "64fa9b28b82641eb8ecbe79f",
+          "64fa9b31b82641eb8ecc06fd",
+          "64fa9b2bb82641eb8ecbeb71",
+          "64fa9b2bb82641eb8ecbeb85"
+        ],
+        "hit_at_5": false
+      },
+      {
+        "query": "双方希望抓住什么机遇进一步加强合作？",
+        "doc_id": "64fa9b30b82641eb8ecc0283",
+        "reference_answer": "海南自贸港建设的机遇",
+        "answer_preview": "",
+        "answer_accuracy": 0.0,
+        "faithfulness": 0.0,
+        "latency_ms": 787.7,
+        "retrieved_ids": [
+          "64fa9b28b82641eb8ecbe7b1",
+          "64fa9b32b82641eb8ecc094a",
+          "64fa9b2db82641eb8ecbf3fb",
+          "64fa9b2db82641eb8ecbf587",
+          "64fa9b28b82641eb8ecbe822"
+        ],
+        "hit_at_5": false
+      },
+      {
+        "query": "公告发布的当天股价上涨了多少？",
+        "doc_id": "64fa9b2db82641eb8ecbfa76",
+        "reference_answer": "无法推断",
+        "answer_preview": "",
+        "answer_accuracy": 0.0,
+        "faithfulness": 0.0,
+        "latency_ms": 1019.6,
+        "retrieved_ids": [
+          "64fa9b2bb82641eb8ecbeb84",
+          "64fa9b2bb82641eb8ecbeba7",
+          "64fa9b2cb82641eb8ecbf208",
+          "64fa9b2bb82641eb8ecbec0d",
+          "64fa9b2bb82641eb8ecbebfa"
+        ],
+        "hit_at_5": false
+      },
+      {
+        "query": "如何进行预测和发布预警信息？",
+        "doc_id": "64fa9b28b82641eb8ecbe61f",
+        "reference_answer": "精准预测和及时发布预警信息",
+        "answer_preview": "",
+        "answer_accuracy": 0.0,
+        "faithfulness": 0.0,
+        "latency_ms": 971.6,
+        "retrieved_ids": [
+          "64fa9b32b82641eb8ecc098e",
+          "64fa9b2cb82641eb8ecbf02f",
+          "64fa9b31b82641eb8ecc06ba",
+          "64fa9b30b82641eb8ecc0437",
+          "64fa9b2cb82641eb8ecbf00a"
+        ],
+        "hit_at_5": false
+      },
+      {
+        "query": "这些举措的目标是什么？",
+        "doc_id": "64fa9b27b82641eb8ecbe37a",
+        "reference_answer": "提升服务质量和效率、促进公平竞争、构建良好的工作格局",
+        "answer_preview": "",
+        "answer_accuracy": 0.0,
+        "faithfulness": 0.0,
+        "latency_ms": 839.4,
+        "retrieved_ids": [
+          "64fa9b2cb82641eb8ecbef2e",
+          "64fa9b2bb82641eb8ecbeba3",
+          "64fa9b27b82641eb8ecbe1f0",
+          "64fa9b28b82641eb8ecbe7e7",
+          "64fa9b2eb82641eb8ecbfb61"
+        ],
+        "hit_at_5": false
+      },
+      {
+        "query": "李国英部长要求做好哪些洪水复盘工作？",
+        "doc_id": "64fa9b31b82641eb8ecc0736",
+        "reference_answer": "根据实际洪水过程，反演提取预报参数，把握“降雨—产流—汇流—演进”规律",
+        "answer_preview": "",
+        "answer_accuracy": 0.0,
+        "faithfulness": 0.0,
+        "latency_ms": 1094.0,
+        "retrieved_ids": [
+          "64fa9b31b82641eb8ecc0728",
+          "64fa9b31b82641eb8ecc07c4",
+          "64fa9b31b82641eb8ecc07d0",
+          "64fa9b2eb82641eb8ecbfbd3",
+          "64fa9b28b82641eb8ecbe850"
+        ],
+        "hit_at_5": false
+      },
+      {
+        "query": "改造的商铺外立面面积是多少平方米？",
+        "doc_id": "64fa9b2eb82641eb8ecbfc1f",
+        "reference_answer": "9.6万平方米",
+        "answer_preview": "",
+        "answer_accuracy": 0.0,
+        "faithfulness": 0.0,
+        "latency_ms": 1300.3,
+        "retrieved_ids": [
+          "64fa9b28b82641eb8ecbe7cb",
+          "64fa9b32b82641eb8ecc0a45",
+          "64fa9b2db82641eb8ecbf8c9",
+          "64fa9b2cb82641eb8ecbf007",
+          "64fa9b28b82641eb8ecbe8fe"
+        ],
+        "hit_at_5": false
+      },
+      {
+        "query": "哪些国家的领导人出席了开幕式？",
+        "doc_id": "64fa9b2fb82641eb8ecc01bf",
+        "reference_answer": "印度尼西亚、毛里塔尼亚、布隆迪、圭亚那、格鲁吉亚",
+        "answer_preview": "",
+        "answer_accuracy": 0.0,
+        "faithfulness": 0.0,
+        "latency_ms": 1250.6,
+        "retrieved_ids": [
+          "64fa9b28b82641eb8ecbe7b0",
+          "64fa9b2eb82641eb8ecbfd10",
+          "64fa9b28b82641eb8ecbe7b1",
+          "64fa9b2fb82641eb8ecc01da",
+          "64fa9b2db82641eb8ecbf63a"
+        ],
+        "hit_at_5": false
+      },
+      {
+        "query": "这些举措的目的是为了促进什么经济的发展？",
+        "doc_id": "64fa9b27b82641eb8ecbe37a",
+        "reference_answer": "唐山市民营经济的发展",
+        "answer_preview": "",
+        "answer_accuracy": 0.0,
+        "faithfulness": 0.0,
+        "latency_ms": 1027.6,
+        "retrieved_ids": [
+          "64fa9b2eb82641eb8ecbfb75",
+          "64fa9b32b82641eb8ecc0b19",
+          "64fa9b2fb82641eb8ecbffcf",
+          "64fa9b2eb82641eb8ecbfb60",
+          "64fa9b2db82641eb8ecbf920"
+        ],
+        "hit_at_5": false
+      },
+      {
+        "query": "电话交谈的时间是什么时候？",
+        "doc_id": "64fa9b32b82641eb8ecc08fd",
+        "reference_answer": "2023年8月2日",
+        "answer_preview": "",
+        "answer_accuracy": 0.0,
+        "faithfulness": 0.0,
+        "latency_ms": 752.8,
+        "retrieved_ids": [
+          "64fa9b32b82641eb8ecc09cb",
+          "64fa9b2db82641eb8ecbf37c",
+          "64fa9b2bb82641eb8ecbed9a",
+          "64fa9b2cb82641eb8ecbf1cb",
+          "64fa9b2db82641eb8ecbf511"
+        ],
+        "hit_at_5": false
+      },
+      {
+        "query": "会面涉及哪些国际合作项目？",
+        "doc_id": "64fa9b2db82641eb8ecbf5e6",
+        "reference_answer": "无法推断",
+        "answer_preview": "",
+        "answer_accuracy": 0.0,
+        "faithfulness": 0.0,
+        "latency_ms": 1238.3,
+        "retrieved_ids": [
+          "64fa9b2db82641eb8ecbf5c5",
+          "64fa9b32b82641eb8ecc093c",
+          "64fa9b2db82641eb8ecbf532",
+          "64fa9b28b82641eb8ecbe7b1",
+          "64fa9b2eb82641eb8ecbfb18"
+        ],
+        "hit_at_5": false
+      },
+      {
+        "query": "这些导弹搭载了什么类型的导弹？",
+        "doc_id": "64fa9b2cb82641eb8ecbf0d6",
+        "reference_answer": "红外制导空对空导弹",
+        "answer_preview": "",
+        "answer_accuracy": 0.0,
+        "faithfulness": 0.0,
+        "latency_ms": 1097.5,
+        "retrieved_ids": [
+          "64fa9b32b82641eb8ecc09cc",
+          "64fa9b2db82641eb8ecbf51d",
+          "64fa9b2fb82641eb8ecc0187",
+          "64fa9b2cb82641eb8ecbf135",
+          "64fa9b2cb82641eb8ecbf0a1"
+        ],
+        "hit_at_5": false
+      }
+    ]
+  },
+  "hyde": {
+    "mode": "hyde",
+    "mrr_at_5": 0.0382,
+    "recall_at_5": 0.0833,
+    "avg_faithfulness": 0.0,
+    "avg_answer_accuracy": 0.0,
+    "avg_latency_ms": 1760.6,
+    "num_samples": 48,
+    "hyde_trigger_rate": null,
+    "details": [
+      {
+        "query": "有多少支代表团参加了开幕式？",
+        "doc_id": "64fa9b2cb82641eb8ecbeeb0",
+        "reference_answer": "18支",
+        "answer_preview": "",
+        "answer_accuracy": 0.0,
+        "faithfulness": 0.0,
+        "latency_ms": 1535.5,
+        "retrieved_ids": [
+          "64fa9b2cb82641eb8ecbeeb0",
+          "64fa9b2db82641eb8ecbf587",
+          "64fa9b28b82641eb8ecbe7b0",
+          "64fa9b2fb82641eb8ecc01bf",
+          "64fa9b28b82641eb8ecbe6ec"
+        ],
+        "hit_at_5": true
+      },
+      {
+        "query": "会谈的主要内容是什么？",
+        "doc_id": "64fa9b2bb82641eb8ecbed1d",
+        "reference_answer": "合力打击缅境内的电诈网赌等犯罪活动",
+        "answer_preview": "",
+        "answer_accuracy": 0.0,
+        "faithfulness": 0.0,
+        "latency_ms": 1531.0,
+        "retrieved_ids": [
+          "64fa9b2fb82641eb8ecc017e",
+          "64fa9b30b82641eb8ecc0376",
+          "64fa9b2db82641eb8ecbf514",
+          "64fa9b2db82641eb8ecbf653",
+          "64fa9b2db82641eb8ecbf4fd"
+        ],
+        "hit_at_5": false
+      },
+      {
+        "query": "参加交流活动的是哪个代表团？",
+        "doc_id": "64fa9b2db82641eb8ecbf867",
+        "reference_answer": "汕头市青年代表团",
+        "answer_preview": "",
+        "answer_accuracy": 0.0,
+        "faithfulness": 0.0,
+        "latency_ms": 1427.0,
+        "retrieved_ids": [
+          "64fa9b2db82641eb8ecbf525",
+          "64fa9b2db82641eb8ecbf5e0",
+          "64fa9b2db82641eb8ecbf62e",
+          "64fa9b2db82641eb8ecbf4fa",
+          "64fa9b2db82641eb8ecbf4c9"
+        ],
+        "hit_at_5": false
+      },
+      {
+        "query": "发放的补助资金金额是多少？",
+        "doc_id": "64fa9b2eb82641eb8ecbfc2f",
+        "reference_answer": "14.9万元",
+        "answer_preview": "",
+        "answer_accuracy": 0.0,
+        "faithfulness": 0.0,
+        "latency_ms": 1363.9,
+        "retrieved_ids": [
+          "64fa9b2bb82641eb8ecbebc1",
+          "64fa9b31b82641eb8ecc0662",
+          "64fa9b2bb82641eb8ecbebda",
+          "64fa9b2cb82641eb8ecbef2c",
+          "64fa9b31b82641eb8ecc078e"
+        ],
+        "hit_at_5": false
+      },
+      {
+        "query": "受到明显风雨影响的城市有哪些？",
+        "doc_id": "64fa9b31b82641eb8ecc06ef",
+        "reference_answer": "合肥、淮北、亳州、宿州、阜阳、六安、宣城、池州、安庆、黄山市",
+        "answer_preview": "",
+        "answer_accuracy": 0.0,
+        "faithfulness": 0.0,
+        "latency_ms": 2130.0,
+        "retrieved_ids": [
+          "64fa9b2eb82641eb8ecbfb49",
+          "64fa9b31b82641eb8ecc073c",
+          "64fa9b31b82641eb8ecc06fc",
+          "64fa9b2cb82641eb8ecbeeff",
+          "64fa9b31b82641eb8ecc0701"
+        ],
+        "hit_at_5": false
+      },
+      {
+        "query": "在防范工作中，重点排查了哪些安全风险隐患？",
+        "doc_id": "64fa9b28b82641eb8ecbe8e7",
+        "reference_answer": "防洪水内涝、防山体滑坡、建筑施工、生产安全、燃气安全、消防安全",
+        "answer_preview": "",
+        "answer_accuracy": 0.0,
+        "faithfulness": 0.0,
+        "latency_ms": 2733.8,
+        "retrieved_ids": [
+          "64fa9b31b82641eb8ecc06d8",
+          "64fa9b31b82641eb8ecc06bf",
+          "64fa9b31b82641eb8ecc0774",
+          "64fa9b31b82641eb8ecc0822",
+          "64fa9b28b82641eb8ecbe804"
+        ],
+        "hit_at_5": false
+      },
+      {
+        "query": "飞机的型号是什么？",
+        "doc_id": "64fa9b2cb82641eb8ecbf06a",
+        "reference_answer": "Piper PA-28切诺基型",
+        "answer_preview": "",
+        "answer_accuracy": 0.0,
+        "faithfulness": 0.0,
+        "latency_ms": 1264.0,
+        "retrieved_ids": [
+          "64fa9b29b82641eb8ecbea3b",
+          "64fa9b2cb82641eb8ecbf10f",
+          "64fa9b2db82641eb8ecbfa11",
+          "64fa9b2fb82641eb8ecc0240",
+          "64fa9b32b82641eb8ecc0877"
+        ],
+        "hit_at_5": false
+      },
+      {
+        "query": "哪个使馆提出了建议？",
+        "doc_id": "64fa9b2eb82641eb8ecbfcb2",
+        "reference_answer": "中国驻中非大使馆",
+        "answer_preview": "",
+        "answer_accuracy": 0.0,
+        "faithfulness": 0.0,
+        "latency_ms": 1527.5,
+        "retrieved_ids": [
+          "64fa9b2fb82641eb8ecc00fa",
+          "64fa9b2db82641eb8ecbf4fd",
+          "64fa9b27b82641eb8ecbe3bb",
+          "64fa9b2bb82641eb8ecbed9a",
+          "64fa9b2cb82641eb8ecbf1e6"
+        ],
+        "hit_at_5": false
+      },
+      {
+        "query": "停产是指什么？",
+        "doc_id": "64fa9b2bb82641eb8ecbeda4",
+        "reference_answer": "停止生产",
+        "answer_preview": "",
+        "answer_accuracy": 0.0,
+        "faithfulness": 0.0,
+        "latency_ms": 2420.2,
+        "retrieved_ids": [
+          "64fa9b2eb82641eb8ecbfca0",
+          "64fa9b28b82641eb8ecbe79f",
+          "64fa9b2bb82641eb8ecbeb85",
+          "64fa9b2eb82641eb8ecbfb5e",
+          "64fa9b31b82641eb8ecc06fd"
+        ],
+        "hit_at_5": false
+      },
+      {
+        "query": "双方希望抓住什么机遇进一步加强合作？",
+        "doc_id": "64fa9b30b82641eb8ecc0283",
+        "reference_answer": "海南自贸港建设的机遇",
+        "answer_preview": "",
+        "answer_accuracy": 0.0,
+        "faithfulness": 0.0,
+        "latency_ms": 1241.0,
+        "retrieved_ids": [
+          "64fa9b28b82641eb8ecbe7b1",
+          "64fa9b2db82641eb8ecbf3fb",
+          "64fa9b32b82641eb8ecc094a",
+          "64fa9b2db82641eb8ecbf4c9",
+          "64fa9b2db82641eb8ecbf5c5"
+        ],
+        "hit_at_5": false
+      },
+      {
+        "query": "公告发布的当天股价上涨了多少？",
+        "doc_id": "64fa9b2db82641eb8ecbfa76",
+        "reference_answer": "无法推断",
+        "answer_preview": "",
+        "answer_accuracy": 0.0,
+        "faithfulness": 0.0,
+        "latency_ms": 1084.3,
+        "retrieved_ids": [
+          "64fa9b32b82641eb8ecc0d57",
+          "64fa9b2bb82641eb8ecbeb84",
+          "64fa9b2db82641eb8ecbfa65",
+          "64fa9b2eb82641eb8ecbfbd1",
+          "64fa9b2eb82641eb8ecbfb61"
+        ],
+        "hit_at_5": false
+      },
+      {
+        "query": "如何进行预测和发布预警信息？",
+        "doc_id": "64fa9b28b82641eb8ecbe61f",
+        "reference_answer": "精准预测和及时发布预警信息",
+        "answer_preview": "",
+        "answer_accuracy": 0.0,
+        "faithfulness": 0.0,
+        "latency_ms": 3503.5,
+        "retrieved_ids": [
+          "64fa9b2cb82641eb8ecbf02f",
+          "64fa9b31b82641eb8ecc06ba",
+          "64fa9b32b82641eb8ecc098e",
+          "64fa9b31b82641eb8ecc06fc",
+          "64fa9b2cb82641eb8ecbf00a"
+        ],
+        "hit_at_5": false
+      },
+      {
+        "query": "这些举措的目标是什么？",
+        "doc_id": "64fa9b27b82641eb8ecbe37a",
+        "reference_answer": "提升服务质量和效率、促进公平竞争、构建良好的工作格局",
+        "answer_preview": "",
+        "answer_accuracy": 0.0,
+        "faithfulness": 0.0,
+        "latency_ms": 2311.7,
+        "retrieved_ids": [
+          "64fa9b2eb82641eb8ecbfb1f",
+          "64fa9b2db82641eb8ecbf4f0",
+          "64fa9b2eb82641eb8ecbfb8e",
+          "64fa9b2db82641eb8ecbfa8f",
+          "64fa9b2eb82641eb8ecbfc3f"
+        ],
+        "hit_at_5": false
+      },
+      {
+        "query": "李国英部长要求做好哪些洪水复盘工作？",
+        "doc_id": "64fa9b31b82641eb8ecc0736",
+        "reference_answer": "根据实际洪水过程，反演提取预报参数，把握“降雨—产流—汇流—演进”规律",
+        "answer_preview": "",
+        "answer_accuracy": 0.0,
+        "faithfulness": 0.0,
+        "latency_ms": 2646.6,
+        "retrieved_ids": [
+          "64fa9b31b82641eb8ecc0728",
+          "64fa9b31b82641eb8ecc07c4",
+          "64fa9b31b82641eb8ecc07d0",
+          "64fa9b31b82641eb8ecc0736",
+          "64fa9b2db82641eb8ecbf362"
+        ],
+        "hit_at_5": true
+      },
+      {
+        "query": "改造的商铺外立面面积是多少平方米？",
+        "doc_id": "64fa9b2eb82641eb8ecbfc1f",
+        "reference_answer": "9.6万平方米",
+        "answer_preview": "",
+        "answer_accuracy": 0.0,
+        "faithfulness": 0.0,
+        "latency_ms": 1608.8,
+        "retrieved_ids": [
+          "64fa9b28b82641eb8ecbe7cb",
+          "64fa9b2eb82641eb8ecbfb08",
+          "64fa9b2eb82641eb8ecbfba5",
+          "64fa9b2cb82641eb8ecbef89",
+          "64fa9b2fb82641eb8ecbfec5"
+        ],
+        "hit_at_5": false
+      },
+      {
+        "query": "哪些国家的领导人出席了开幕式？",
+        "doc_id": "64fa9b2fb82641eb8ecc01bf",
+        "reference_answer": "印度尼西亚、毛里塔尼亚、布隆迪、圭亚那、格鲁吉亚",
+        "answer_preview": "",
+        "answer_accuracy": 0.0,
+        "faithfulness": 0.0,
+        "latency_ms": 1850.6,
+        "retrieved_ids": [
+          "64fa9b28b82641eb8ecbe7b0",
+          "64fa9b2db82641eb8ecbf5c5",
+          "64fa9b2eb82641eb8ecbfd10",
+          "64fa9b28b82641eb8ecbe7b1",
+          "64fa9b2fb82641eb8ecc017e"
+        ],
+        "hit_at_5": false
+      },
+      {
+        "query": "这些举措的目的是为了促进什么经济的发展？",
+        "doc_id": "64fa9b27b82641eb8ecbe37a",
+        "reference_answer": "唐山市民营经济的发展",
+        "answer_preview": "",
+        "answer_accuracy": 0.0,
+        "faithfulness": 0.0,
+        "latency_ms": 1440.9,
+        "retrieved_ids": [
+          "64fa9b2eb82641eb8ecbfc6f",
+          "64fa9b2eb82641eb8ecbfb75",
+          "64fa9b2fb82641eb8ecbffcf",
+          "64fa9b2db82641eb8ecbf931",
+          "64fa9b2eb82641eb8ecbfb60"
+        ],
+        "hit_at_5": false
+      },
+      {
+        "query": "电话交谈的时间是什么时候？",
+        "doc_id": "64fa9b32b82641eb8ecc08fd",
+        "reference_answer": "2023年8月2日",
+        "answer_preview": "",
+        "answer_accuracy": 0.0,
+        "faithfulness": 0.0,
+        "latency_ms": 1292.9,
+        "retrieved_ids": [
+          "64fa9b32b82641eb8ecc09cb",
+          "64fa9b2bb82641eb8ecbed9a",
+          "64fa9b2db82641eb8ecbf511",
+          "64fa9b2cb82641eb8ecbefe3",
+          "64fa9b27b82641eb8ecbe3bb"
+        ],
+        "hit_at_5": false
+      },
+      {
+        "query": "会面涉及哪些国际合作项目？",
+        "doc_id": "64fa9b2db82641eb8ecbf5e6",
+        "reference_answer": "无法推断",
+        "answer_preview": "",
+        "answer_accuracy": 0.0,
+        "faithfulness": 0.0,
+        "latency_ms": 1875.2,
+        "retrieved_ids": [
+          "64fa9b2db82641eb8ecbf5c5",
+          "64fa9b2db82641eb8ecbf52d",
+          "64fa9b32b82641eb8ecc088c",
+          "64fa9b2db82641eb8ecbf532",
+          "64fa9b32b82641eb8ecc093c"
+        ],
+        "hit_at_5": false
+      },
+      {
+        "query": "这些导弹搭载了什么类型的导弹？",
+        "doc_id": "64fa9b2cb82641eb8ecbf0d6",
+        "reference_answer": "红外制导空对空导弹",
+        "answer_preview": "",
+        "answer_accuracy": 0.0,
+        "faithfulness": 0.0,
+        "latency_ms": 1575.6,
+        "retrieved_ids": [
+          "64fa9b2db82641eb8ecbf51d",
+          "64fa9b32b82641eb8ecc09cc",
+          "64fa9b2cb82641eb8ecbf0a1",
+          "64fa9b2fb82641eb8ecc024f",
+          "64fa9b2fb82641eb8ecc0187"
+        ],
+        "hit_at_5": false
+      }
+    ]
+  },
+  "adaptive_hyde": {
+    "mode": "adaptive_hyde",
+    "mrr_at_5": 0.026,
+    "recall_at_5": 0.0417,
+    "avg_faithfulness": 0.0,
+    "avg_answer_accuracy": 0.0,
+    "avg_latency_ms": 1880.9,
+    "num_samples": 48,
+    "hyde_trigger_rate": 1.0,
+    "details": [
+      {
+        "query": "有多少支代表团参加了开幕式？",
+        "doc_id": "64fa9b2cb82641eb8ecbeeb0",
+        "reference_answer": "18支",
+        "answer_preview": "",
+        "answer_accuracy": 0.0,
+        "faithfulness": 0.0,
+        "latency_ms": 1581.3,
+        "retrieved_ids": [
+          "64fa9b2cb82641eb8ecbeeb0",
+          "64fa9b2db82641eb8ecbf587",
+          "64fa9b28b82641eb8ecbe7b0",
+          "64fa9b2fb82641eb8ecc01bf",
+          "64fa9b28b82641eb8ecbe6ec"
+        ],
+        "hit_at_5": true,
+        "route": "hyde",
+        "route_reason": "low_confidence"
+      },
+      {
+        "query": "会谈的主要内容是什么？",
+        "doc_id": "64fa9b2bb82641eb8ecbed1d",
+        "reference_answer": "合力打击缅境内的电诈网赌等犯罪活动",
+        "answer_preview": "",
+        "answer_accuracy": 0.0,
+        "faithfulness": 0.0,
+        "latency_ms": 1625.3,
+        "retrieved_ids": [
+          "64fa9b2fb82641eb8ecc017e",
+          "64fa9b30b82641eb8ecc0376",
+          "64fa9b2db82641eb8ecbf514",
+          "64fa9b2db82641eb8ecbf653",
+          "64fa9b2db82641eb8ecbf4fd"
+        ],
+        "hit_at_5": false,
+        "route": "hyde",
+        "route_reason": "low_confidence"
+      },
+      {
+        "query": "参加交流活动的是哪个代表团？",
+        "doc_id": "64fa9b2db82641eb8ecbf867",
+        "reference_answer": "汕头市青年代表团",
+        "answer_preview": "",
+        "answer_accuracy": 0.0,
+        "faithfulness": 0.0,
+        "latency_ms": 1577.4,
+        "retrieved_ids": [
+          "64fa9b2db82641eb8ecbf514",
+          "64fa9b2db82641eb8ecbf4c9",
+          "64fa9b2db82641eb8ecbf5e0",
+          "64fa9b32b82641eb8ecc0baa",
+          "64fa9b2db82641eb8ecbf525"
+        ],
+        "hit_at_5": false,
+        "route": "hyde",
+        "route_reason": "low_confidence"
+      },
+      {
+        "query": "发放的补助资金金额是多少？",
+        "doc_id": "64fa9b2eb82641eb8ecbfc2f",
+        "reference_answer": "14.9万元",
+        "answer_preview": "",
+        "answer_accuracy": 0.0,
+        "faithfulness": 0.0,
+        "latency_ms": 1463.8,
+        "retrieved_ids": [
+          "64fa9b2bb82641eb8ecbebc1",
+          "64fa9b31b82641eb8ecc0662",
+          "64fa9b2bb82641eb8ecbebda",
+          "64fa9b2cb82641eb8ecbef2c",
+          "64fa9b31b82641eb8ecc078e"
+        ],
+        "hit_at_5": false,
+        "route": "hyde",
+        "route_reason": "low_confidence"
+      },
+      {
+        "query": "受到明显风雨影响的城市有哪些？",
+        "doc_id": "64fa9b31b82641eb8ecc06ef",
+        "reference_answer": "合肥、淮北、亳州、宿州、阜阳、六安、宣城、池州、安庆、黄山市",
+        "answer_preview": "",
+        "answer_accuracy": 0.0,
+        "faithfulness": 0.0,
+        "latency_ms": 2169.9,
+        "retrieved_ids": [
+          "64fa9b2eb82641eb8ecbfb49",
+          "64fa9b31b82641eb8ecc06db",
+          "64fa9b31b82641eb8ecc06fc",
+          "64fa9b31b82641eb8ecc073c",
+          "64fa9b28b82641eb8ecbe7f6"
+        ],
+        "hit_at_5": false,
+        "route": "hyde",
+        "route_reason": "low_confidence"
+      },
+      {
+        "query": "在防范工作中，重点排查了哪些安全风险隐患？",
+        "doc_id": "64fa9b28b82641eb8ecbe8e7",
+        "reference_answer": "防洪水内涝、防山体滑坡、建筑施工、生产安全、燃气安全、消防安全",
+        "answer_preview": "",
+        "answer_accuracy": 0.0,
+        "faithfulness": 0.0,
+        "latency_ms": 2862.4,
+        "retrieved_ids": [
+          "64fa9b31b82641eb8ecc06d8",
+          "64fa9b31b82641eb8ecc06bf",
+          "64fa9b31b82641eb8ecc0822",
+          "64fa9b31b82641eb8ecc0774",
+          "64fa9b31b82641eb8ecc0687"
+        ],
+        "hit_at_5": false,
+        "route": "hyde",
+        "route_reason": "low_confidence"
+      },
+      {
+        "query": "飞机的型号是什么？",
+        "doc_id": "64fa9b2cb82641eb8ecbf06a",
+        "reference_answer": "Piper PA-28切诺基型",
+        "answer_preview": "",
+        "answer_accuracy": 0.0,
+        "faithfulness": 0.0,
+        "latency_ms": 1354.0,
+        "retrieved_ids": [
+          "64fa9b29b82641eb8ecbea3b",
+          "64fa9b2cb82641eb8ecbf10f",
+          "64fa9b2db82641eb8ecbfa11",
+          "64fa9b2fb82641eb8ecc0240",
+          "64fa9b32b82641eb8ecc0877"
+        ],
+        "hit_at_5": false,
+        "route": "hyde",
+        "route_reason": "low_confidence"
+      },
+      {
+        "query": "哪个使馆提出了建议？",
+        "doc_id": "64fa9b2eb82641eb8ecbfcb2",
+        "reference_answer": "中国驻中非大使馆",
+        "answer_preview": "",
+        "answer_accuracy": 0.0,
+        "faithfulness": 0.0,
+        "latency_ms": 1392.9,
+        "retrieved_ids": [
+          "64fa9b2db82641eb8ecbf4fd",
+          "64fa9b32b82641eb8ecc0b46",
+          "64fa9b2fb82641eb8ecc00fa",
+          "64fa9b2db82641eb8ecbf5d0",
+          "64fa9b2cb82641eb8ecbf1e6"
+        ],
+        "hit_at_5": false,
+        "route": "hyde",
+        "route_reason": "low_confidence"
+      },
+      {
+        "query": "停产是指什么？",
+        "doc_id": "64fa9b2bb82641eb8ecbeda4",
+        "reference_answer": "停止生产",
+        "answer_preview": "",
+        "answer_accuracy": 0.0,
+        "faithfulness": 0.0,
+        "latency_ms": 2196.5,
+        "retrieved_ids": [
+          "64fa9b2eb82641eb8ecbfca0",
+          "64fa9b28b82641eb8ecbe79f",
+          "64fa9b2eb82641eb8ecbfb5e",
+          "64fa9b2bb82641eb8ecbeb85",
+          "64fa9b31b82641eb8ecc06fd"
+        ],
+        "hit_at_5": false,
+        "route": "hyde",
+        "route_reason": "low_confidence"
+      },
+      {
+        "query": "双方希望抓住什么机遇进一步加强合作？",
+        "doc_id": "64fa9b30b82641eb8ecc0283",
+        "reference_answer": "海南自贸港建设的机遇",
+        "answer_preview": "",
+        "answer_accuracy": 0.0,
+        "faithfulness": 0.0,
+        "latency_ms": 1211.2,
+        "retrieved_ids": [
+          "64fa9b28b82641eb8ecbe7b1",
+          "64fa9b32b82641eb8ecc094a",
+          "64fa9b2db82641eb8ecbf3fb",
+          "64fa9b2db82641eb8ecbf5c5",
+          "64fa9b2db82641eb8ecbf4c9"
+        ],
+        "hit_at_5": false,
+        "route": "hyde",
+        "route_reason": "low_confidence"
+      },
+      {
+        "query": "公告发布的当天股价上涨了多少？",
+        "doc_id": "64fa9b2db82641eb8ecbfa76",
+        "reference_answer": "无法推断",
+        "answer_preview": "",
+        "answer_accuracy": 0.0,
+        "faithfulness": 0.0,
+        "latency_ms": 1162.8,
+        "retrieved_ids": [
+          "64fa9b32b82641eb8ecc0d57",
+          "64fa9b2bb82641eb8ecbeb84",
+          "64fa9b2db82641eb8ecbfa65",
+          "64fa9b2eb82641eb8ecbfbd1",
+          "64fa9b2eb82641eb8ecbfb61"
+        ],
+        "hit_at_5": false,
+        "route": "hyde",
+        "route_reason": "low_confidence"
+      },
+      {
+        "query": "如何进行预测和发布预警信息？",
+        "doc_id": "64fa9b28b82641eb8ecbe61f",
+        "reference_answer": "精准预测和及时发布预警信息",
+        "answer_preview": "",
+        "answer_accuracy": 0.0,
+        "faithfulness": 0.0,
+        "latency_ms": 3557.9,
+        "retrieved_ids": [
+          "64fa9b2cb82641eb8ecbf02f",
+          "64fa9b31b82641eb8ecc06ba",
+          "64fa9b32b82641eb8ecc098e",
+          "64fa9b2cb82641eb8ecbf00a",
+          "64fa9b31b82641eb8ecc06fc"
+        ],
+        "hit_at_5": false,
+        "route": "hyde",
+        "route_reason": "low_confidence"
+      },
+      {
+        "query": "这些举措的目标是什么？",
+        "doc_id": "64fa9b27b82641eb8ecbe37a",
+        "reference_answer": "提升服务质量和效率、促进公平竞争、构建良好的工作格局",
+        "answer_preview": "",
+        "answer_accuracy": 0.0,
+        "faithfulness": 0.0,
+        "latency_ms": 2402.2,
+        "retrieved_ids": [
+          "64fa9b2eb82641eb8ecbfb1f",
+          "64fa9b2db82641eb8ecbf4f0",
+          "64fa9b2eb82641eb8ecbfb8e",
+          "64fa9b2db82641eb8ecbf36f",
+          "64fa9b2db82641eb8ecbfa8f"
+        ],
+        "hit_at_5": false,
+        "route": "hyde",
+        "route_reason": "low_confidence"
+      },
+      {
+        "query": "李国英部长要求做好哪些洪水复盘工作？",
+        "doc_id": "64fa9b31b82641eb8ecc0736",
+        "reference_answer": "根据实际洪水过程，反演提取预报参数，把握“降雨—产流—汇流—演进”规律",
+        "answer_preview": "",
+        "answer_accuracy": 0.0,
+        "faithfulness": 0.0,
+        "latency_ms": 2617.1,
+        "retrieved_ids": [
+          "64fa9b31b82641eb8ecc0728",
+          "64fa9b31b82641eb8ecc07c4",
+          "64fa9b31b82641eb8ecc07d0",
+          "64fa9b31b82641eb8ecc0736",
+          "64fa9b2eb82641eb8ecbfbd3"
+        ],
+        "hit_at_5": true,
+        "route": "hyde",
+        "route_reason": "ambiguous_top2"
+      },
+      {
+        "query": "改造的商铺外立面面积是多少平方米？",
+        "doc_id": "64fa9b2eb82641eb8ecbfc1f",
+        "reference_answer": "9.6万平方米",
+        "answer_preview": "",
+        "answer_accuracy": 0.0,
+        "faithfulness": 0.0,
+        "latency_ms": 1688.2,
+        "retrieved_ids": [
+          "64fa9b28b82641eb8ecbe7cb",
+          "64fa9b2eb82641eb8ecbfb08",
+          "64fa9b2eb82641eb8ecbfba5",
+          "64fa9b2cb82641eb8ecbef89",
+          "64fa9b2fb82641eb8ecbfec5"
+        ],
+        "hit_at_5": false,
+        "route": "hyde",
+        "route_reason": "low_confidence"
+      },
+      {
+        "query": "哪些国家的领导人出席了开幕式？",
+        "doc_id": "64fa9b2fb82641eb8ecc01bf",
+        "reference_answer": "印度尼西亚、毛里塔尼亚、布隆迪、圭亚那、格鲁吉亚",
+        "answer_preview": "",
+        "answer_accuracy": 0.0,
+        "faithfulness": 0.0,
+        "latency_ms": 2147.1,
+        "retrieved_ids": [
+          "64fa9b2db82641eb8ecbf5c5",
+          "64fa9b2db82641eb8ecbf63a",
+          "64fa9b28b82641eb8ecbe7b1",
+          "64fa9b28b82641eb8ecbe7b0",
+          "64fa9b2db82641eb8ecbf623"
+        ],
+        "hit_at_5": false,
+        "route": "hyde",
+        "route_reason": "low_confidence"
+      },
+      {
+        "query": "这些举措的目的是为了促进什么经济的发展？",
+        "doc_id": "64fa9b27b82641eb8ecbe37a",
+        "reference_answer": "唐山市民营经济的发展",
+        "answer_preview": "",
+        "answer_accuracy": 0.0,
+        "faithfulness": 0.0,
+        "latency_ms": 1538.1,
+        "retrieved_ids": [
+          "64fa9b2eb82641eb8ecbfc6f",
+          "64fa9b2eb82641eb8ecbfb75",
+          "64fa9b2fb82641eb8ecbffcf",
+          "64fa9b2db82641eb8ecbf931",
+          "64fa9b2eb82641eb8ecbfb60"
+        ],
+        "hit_at_5": false,
+        "route": "hyde",
+        "route_reason": "low_confidence"
+      },
+      {
+        "query": "电话交谈的时间是什么时候？",
+        "doc_id": "64fa9b32b82641eb8ecc08fd",
+        "reference_answer": "2023年8月2日",
+        "answer_preview": "",
+        "answer_accuracy": 0.0,
+        "faithfulness": 0.0,
+        "latency_ms": 1297.5,
+        "retrieved_ids": [
+          "64fa9b2bb82641eb8ecbed9a",
+          "64fa9b32b82641eb8ecc09cb",
+          "64fa9b27b82641eb8ecbe3bb",
+          "64fa9b2bb82641eb8ecbed0b",
+          "64fa9b2db82641eb8ecbf37c"
+        ],
+        "hit_at_5": false,
+        "route": "hyde",
+        "route_reason": "low_confidence"
+      },
+      {
+        "query": "会面涉及哪些国际合作项目？",
+        "doc_id": "64fa9b2db82641eb8ecbf5e6",
+        "reference_answer": "无法推断",
+        "answer_preview": "",
+        "answer_accuracy": 0.0,
+        "faithfulness": 0.0,
+        "latency_ms": 2238.5,
+        "retrieved_ids": [
+          "64fa9b2db82641eb8ecbf5c5",
+          "64fa9b32b82641eb8ecc088c",
+          "64fa9b2cb82641eb8ecbf31d",
+          "64fa9b2db82641eb8ecbf52d",
+          "64fa9b2fb82641eb8ecc017e"
+        ],
+        "hit_at_5": false,
+        "route": "hyde",
+        "route_reason": "low_confidence"
+      },
+      {
+        "query": "这些导弹搭载了什么类型的导弹？",
+        "doc_id": "64fa9b2cb82641eb8ecbf0d6",
+        "reference_answer": "红外制导空对空导弹",
+        "answer_preview": "",
+        "answer_accuracy": 0.0,
+        "faithfulness": 0.0,
+        "latency_ms": 1623.0,
+        "retrieved_ids": [
+          "64fa9b2db82641eb8ecbf51d",
+          "64fa9b32b82641eb8ecc09cc",
+          "64fa9b2cb82641eb8ecbf0a1",
+          "64fa9b2fb82641eb8ecc024f",
+          "64fa9b2fb82641eb8ecc0187"
+        ],
+        "hit_at_5": false,
+        "route": "hyde",
+        "route_reason": "low_confidence"
+      }
+    ]
+  },
+  "hybrid": {
+    "mode": "hybrid",
+    "mrr_at_5": 0.025,
+    "recall_at_5": 0.0417,
+    "avg_faithfulness": 0.0,
+    "avg_answer_accuracy": 0.0,
+    "avg_latency_ms": 1862.2,
+    "num_samples": 48,
+    "hyde_trigger_rate": 1.0,
+    "details": [
+      {
+        "query": "有多少支代表团参加了开幕式？",
+        "doc_id": "64fa9b2cb82641eb8ecbeeb0",
+        "reference_answer": "18支",
+        "answer_preview": "",
+        "answer_accuracy": 0.0,
+        "faithfulness": 0.0,
+        "latency_ms": 1628.3,
+        "retrieved_ids": [
+          "64fa9b2cb82641eb8ecbeeb0",
+          "64fa9b2db82641eb8ecbf587",
+          "64fa9b28b82641eb8ecbe7b0",
+          "64fa9b2fb82641eb8ecc01bf",
+          "64fa9b2cb82641eb8ecbeec0"
+        ],
+        "hit_at_5": true,
+        "route": "hyde"
+      },
+      {
+        "query": "会谈的主要内容是什么？",
+        "doc_id": "64fa9b2bb82641eb8ecbed1d",
+        "reference_answer": "合力打击缅境内的电诈网赌等犯罪活动",
+        "answer_preview": "",
+        "answer_accuracy": 0.0,
+        "faithfulness": 0.0,
+        "latency_ms": 1631.2,
+        "retrieved_ids": [
+          "64fa9b2fb82641eb8ecc017e",
+          "64fa9b30b82641eb8ecc0376",
+          "64fa9b2db82641eb8ecbf514",
+          "64fa9b2db82641eb8ecbf653",
+          "64fa9b2db82641eb8ecbf4fd"
+        ],
+        "hit_at_5": false,
+        "route": "hyde"
+      },
+      {
+        "query": "参加交流活动的是哪个代表团？",
+        "doc_id": "64fa9b2db82641eb8ecbf867",
+        "reference_answer": "汕头市青年代表团",
+        "answer_preview": "",
+        "answer_accuracy": 0.0,
+        "faithfulness": 0.0,
+        "latency_ms": 1505.9,
+        "retrieved_ids": [
+          "64fa9b2db82641eb8ecbf525",
+          "64fa9b2db82641eb8ecbf5e0",
+          "64fa9b2db82641eb8ecbf62e",
+          "64fa9b2db82641eb8ecbf4fa",
+          "64fa9b2db82641eb8ecbf4c9"
+        ],
+        "hit_at_5": false,
+        "route": "hyde"
+      },
+      {
+        "query": "发放的补助资金金额是多少？",
+        "doc_id": "64fa9b2eb82641eb8ecbfc2f",
+        "reference_answer": "14.9万元",
+        "answer_preview": "",
+        "answer_accuracy": 0.0,
+        "faithfulness": 0.0,
+        "latency_ms": 1453.4,
+        "retrieved_ids": [
+          "64fa9b2bb82641eb8ecbebc1",
+          "64fa9b31b82641eb8ecc0662",
+          "64fa9b2bb82641eb8ecbebda",
+          "64fa9b2cb82641eb8ecbef2c",
+          "64fa9b31b82641eb8ecc078e"
+        ],
+        "hit_at_5": false,
+        "route": "hyde"
+      },
+      {
+        "query": "受到明显风雨影响的城市有哪些？",
+        "doc_id": "64fa9b31b82641eb8ecc06ef",
+        "reference_answer": "合肥、淮北、亳州、宿州、阜阳、六安、宣城、池州、安庆、黄山市",
+        "answer_preview": "",
+        "answer_accuracy": 0.0,
+        "faithfulness": 0.0,
+        "latency_ms": 2079.0,
+        "retrieved_ids": [
+          "64fa9b2eb82641eb8ecbfb49",
+          "64fa9b31b82641eb8ecc06fc",
+          "64fa9b2cb82641eb8ecbeeff",
+          "64fa9b31b82641eb8ecc06db",
+          "64fa9b28b82641eb8ecbe7f6"
+        ],
+        "hit_at_5": false,
+        "route": "hyde"
+      },
+      {
+        "query": "在防范工作中，重点排查了哪些安全风险隐患？",
+        "doc_id": "64fa9b28b82641eb8ecbe8e7",
+        "reference_answer": "防洪水内涝、防山体滑坡、建筑施工、生产安全、燃气安全、消防安全",
+        "answer_preview": "",
+        "answer_accuracy": 0.0,
+        "faithfulness": 0.0,
+        "latency_ms": 2972.2,
+        "retrieved_ids": [
+          "64fa9b31b82641eb8ecc06d8",
+          "64fa9b31b82641eb8ecc06bf",
+          "64fa9b31b82641eb8ecc0822",
+          "64fa9b31b82641eb8ecc0774",
+          "64fa9b31b82641eb8ecc0687"
+        ],
+        "hit_at_5": false,
+        "route": "hyde"
+      },
+      {
+        "query": "飞机的型号是什么？",
+        "doc_id": "64fa9b2cb82641eb8ecbf06a",
+        "reference_answer": "Piper PA-28切诺基型",
+        "answer_preview": "",
+        "answer_accuracy": 0.0,
+        "faithfulness": 0.0,
+        "latency_ms": 1341.4,
+        "retrieved_ids": [
+          "64fa9b29b82641eb8ecbea3b",
+          "64fa9b2cb82641eb8ecbf10f",
+          "64fa9b2db82641eb8ecbfa11",
+          "64fa9b2fb82641eb8ecc0240",
+          "64fa9b32b82641eb8ecc0877"
+        ],
+        "hit_at_5": false,
+        "route": "hyde"
+      },
+      {
+        "query": "哪个使馆提出了建议？",
+        "doc_id": "64fa9b2eb82641eb8ecbfcb2",
+        "reference_answer": "中国驻中非大使馆",
+        "answer_preview": "",
+        "answer_accuracy": 0.0,
+        "faithfulness": 0.0,
+        "latency_ms": 1614.7,
+        "retrieved_ids": [
+          "64fa9b2fb82641eb8ecc00fa",
+          "64fa9b2db82641eb8ecbf4fd",
+          "64fa9b27b82641eb8ecbe3bb",
+          "64fa9b2bb82641eb8ecbed9a",
+          "64fa9b2cb82641eb8ecbf1e6"
+        ],
+        "hit_at_5": false,
+        "route": "hyde"
+      },
+      {
+        "query": "停产是指什么？",
+        "doc_id": "64fa9b2bb82641eb8ecbeda4",
+        "reference_answer": "停止生产",
+        "answer_preview": "",
+        "answer_accuracy": 0.0,
+        "faithfulness": 0.0,
+        "latency_ms": 2184.2,
+        "retrieved_ids": [
+          "64fa9b2eb82641eb8ecbfca0",
+          "64fa9b28b82641eb8ecbe79f",
+          "64fa9b2eb82641eb8ecbfb5e",
+          "64fa9b2bb82641eb8ecbeb85",
+          "64fa9b31b82641eb8ecc06fd"
+        ],
+        "hit_at_5": false,
+        "route": "hyde"
+      },
+      {
+        "query": "双方希望抓住什么机遇进一步加强合作？",
+        "doc_id": "64fa9b30b82641eb8ecc0283",
+        "reference_answer": "海南自贸港建设的机遇",
+        "answer_preview": "",
+        "answer_accuracy": 0.0,
+        "faithfulness": 0.0,
+        "latency_ms": 1297.3,
+        "retrieved_ids": [
+          "64fa9b28b82641eb8ecbe7b1",
+          "64fa9b2db82641eb8ecbf3fb",
+          "64fa9b32b82641eb8ecc094a",
+          "64fa9b2db82641eb8ecbf4c9",
+          "64fa9b2db82641eb8ecbf5c5"
+        ],
+        "hit_at_5": false,
+        "route": "hyde"
+      },
+      {
+        "query": "公告发布的当天股价上涨了多少？",
+        "doc_id": "64fa9b2db82641eb8ecbfa76",
+        "reference_answer": "无法推断",
+        "answer_preview": "",
+        "answer_accuracy": 0.0,
+        "faithfulness": 0.0,
+        "latency_ms": 1160.4,
+        "retrieved_ids": [
+          "64fa9b32b82641eb8ecc0d57",
+          "64fa9b2bb82641eb8ecbeb84",
+          "64fa9b2db82641eb8ecbfa65",
+          "64fa9b2eb82641eb8ecbfbd1",
+          "64fa9b2eb82641eb8ecbfb61"
+        ],
+        "hit_at_5": false,
+        "route": "hyde"
+      },
+      {
+        "query": "如何进行预测和发布预警信息？",
+        "doc_id": "64fa9b28b82641eb8ecbe61f",
+        "reference_answer": "精准预测和及时发布预警信息",
+        "answer_preview": "",
+        "answer_accuracy": 0.0,
+        "faithfulness": 0.0,
+        "latency_ms": 3597.1,
+        "retrieved_ids": [
+          "64fa9b2cb82641eb8ecbf02f",
+          "64fa9b31b82641eb8ecc06ba",
+          "64fa9b31b82641eb8ecc06fc",
+          "64fa9b31b82641eb8ecc0666",
+          "64fa9b2cb82641eb8ecbf00a"
+        ],
+        "hit_at_5": false,
+        "route": "hyde"
+      },
+      {
+        "query": "这些举措的目标是什么？",
+        "doc_id": "64fa9b27b82641eb8ecbe37a",
+        "reference_answer": "提升服务质量和效率、促进公平竞争、构建良好的工作格局",
+        "answer_preview": "",
+        "answer_accuracy": 0.0,
+        "faithfulness": 0.0,
+        "latency_ms": 2283.4,
+        "retrieved_ids": [
+          "64fa9b2eb82641eb8ecbfb1f",
+          "64fa9b2db82641eb8ecbf4f0",
+          "64fa9b2eb82641eb8ecbfb8e",
+          "64fa9b2eb82641eb8ecbfc3f",
+          "64fa9b2db82641eb8ecbfa8f"
+        ],
+        "hit_at_5": false,
+        "route": "hyde"
+      },
+      {
+        "query": "李国英部长要求做好哪些洪水复盘工作？",
+        "doc_id": "64fa9b31b82641eb8ecc0736",
+        "reference_answer": "根据实际洪水过程，反演提取预报参数，把握“降雨—产流—汇流—演进”规律",
+        "answer_preview": "",
+        "answer_accuracy": 0.0,
+        "faithfulness": 0.0,
+        "latency_ms": 2735.9,
+        "retrieved_ids": [
+          "64fa9b31b82641eb8ecc0728",
+          "64fa9b31b82641eb8ecc07c4",
+          "64fa9b31b82641eb8ecc07d0",
+          "64fa9b2eb82641eb8ecbfbd3",
+          "64fa9b31b82641eb8ecc0736"
+        ],
+        "hit_at_5": true,
+        "route": "hyde"
+      },
+      {
+        "query": "改造的商铺外立面面积是多少平方米？",
+        "doc_id": "64fa9b2eb82641eb8ecbfc1f",
+        "reference_answer": "9.6万平方米",
+        "answer_preview": "",
+        "answer_accuracy": 0.0,
+        "faithfulness": 0.0,
+        "latency_ms": 2013.9,
+        "retrieved_ids": [
+          "64fa9b28b82641eb8ecbe7cb",
+          "64fa9b2db82641eb8ecbf8c9",
+          "64fa9b2cb82641eb8ecbf007",
+          "64fa9b32b82641eb8ecc0a45",
+          "64fa9b28b82641eb8ecbe8fe"
+        ],
+        "hit_at_5": false,
+        "route": "hyde"
+      },
+      {
+        "query": "哪些国家的领导人出席了开幕式？",
+        "doc_id": "64fa9b2fb82641eb8ecc01bf",
+        "reference_answer": "印度尼西亚、毛里塔尼亚、布隆迪、圭亚那、格鲁吉亚",
+        "answer_preview": "",
+        "answer_accuracy": 0.0,
+        "faithfulness": 0.0,
+        "latency_ms": 2146.9,
+        "retrieved_ids": [
+          "64fa9b2db82641eb8ecbf5c5",
+          "64fa9b2db82641eb8ecbf63a",
+          "64fa9b28b82641eb8ecbe7b0",
+          "64fa9b28b82641eb8ecbe7b1",
+          "64fa9b2db82641eb8ecbf623"
+        ],
+        "hit_at_5": false,
+        "route": "hyde"
+      },
+      {
+        "query": "这些举措的目的是为了促进什么经济的发展？",
+        "doc_id": "64fa9b27b82641eb8ecbe37a",
+        "reference_answer": "唐山市民营经济的发展",
+        "answer_preview": "",
+        "answer_accuracy": 0.0,
+        "faithfulness": 0.0,
+        "latency_ms": 1417.3,
+        "retrieved_ids": [
+          "64fa9b2eb82641eb8ecbfc6f",
+          "64fa9b2fb82641eb8ecbffcf",
+          "64fa9b2eb82641eb8ecbfb75",
+          "64fa9b32b82641eb8ecc0b19",
+          "64fa9b2db82641eb8ecbf931"
+        ],
+        "hit_at_5": false,
+        "route": "hyde"
+      },
+      {
+        "query": "电话交谈的时间是什么时候？",
+        "doc_id": "64fa9b32b82641eb8ecc08fd",
+        "reference_answer": "2023年8月2日",
+        "answer_preview": "",
+        "answer_accuracy": 0.0,
+        "faithfulness": 0.0,
+        "latency_ms": 1315.3,
+        "retrieved_ids": [
+          "64fa9b2bb82641eb8ecbed9a",
+          "64fa9b32b82641eb8ecc09cb",
+          "64fa9b27b82641eb8ecbe3bb",
+          "64fa9b2bb82641eb8ecbed0b",
+          "64fa9b2db82641eb8ecbf37c"
+        ],
+        "hit_at_5": false,
+        "route": "hyde"
+      },
+      {
+        "query": "会面涉及哪些国际合作项目？",
+        "doc_id": "64fa9b2db82641eb8ecbf5e6",
+        "reference_answer": "无法推断",
+        "answer_preview": "",
+        "answer_accuracy": 0.0,
+        "faithfulness": 0.0,
+        "latency_ms": 2586.4,
+        "retrieved_ids": [
+          "64fa9b32b82641eb8ecc088c",
+          "64fa9b2db82641eb8ecbf5c5",
+          "64fa9b2db82641eb8ecbf511",
+          "64fa9b2db82641eb8ecbf4c9",
+          "64fa9b2cb82641eb8ecbf31d"
+        ],
+        "hit_at_5": false,
+        "route": "hyde"
+      },
+      {
+        "query": "这些导弹搭载了什么类型的导弹？",
+        "doc_id": "64fa9b2cb82641eb8ecbf0d6",
+        "reference_answer": "红外制导空对空导弹",
+        "answer_preview": "",
+        "answer_accuracy": 0.0,
+        "faithfulness": 0.0,
+        "latency_ms": 1423.2,
+        "retrieved_ids": [
+          "64fa9b2db82641eb8ecbf51d",
+          "64fa9b32b82641eb8ecc09cc",
+          "64fa9b2fb82641eb8ecc024f",
+          "64fa9b2cb82641eb8ecbf0a1",
+          "64fa9b2cb82641eb8ecbf0d8"
+        ],
+        "hit_at_5": false,
+        "route": "hyde"
+      }
+    ]
+  },
+  "summary": {
+    "hyde_vs_naive_mrr_gain_pct": 3820000000.0,
+    "adaptive_vs_naive_mrr_gain_pct": 2600000000.0,
+    "hybrid_vs_naive_mrr_gain_pct": 2500000000.0,
+    "adaptive_vs_hyde_mrr_gain_pct": -31.9,
+    "adaptive_hyde_trigger_rate": 1.0,
+    "hybrid_hyde_trigger_rate": 1.0,
+    "adaptive_latency_saved_vs_hyde_ms": -120.3
+  },
+  "buckets": {
+    "hard": {
+      "count": 48,
+      "ratio": 1.0
+    },
+    "easy": {
+      "count": 0,
+      "ratio": 0.0
+    },
+    "by_mode": {
+      "naive": {
+        "all": {
+          "mrr_at_5": 0.0,
+          "recall_at_5": 0.0
+        },
+        "hard": {
+          "count": 48,
+          "mrr_at_5": 0.0,
+          "recall_at_5": 0.0
+        },
+        "easy": {
+          "count": 0,
+          "mrr_at_5": 0.0,
+          "recall_at_5": 0.0
+        }
+      },
+      "hyde": {
+        "all": {
+          "mrr_at_5": 0.0382,
+          "recall_at_5": 0.0833
+        },
+        "hard": {
+          "count": 48,
+          "mrr_at_5": 0.0382,
+          "recall_at_5": 0.0833
+        },
+        "easy": {
+          "count": 0,
+          "mrr_at_5": 0.0,
+          "recall_at_5": 0.0
+        }
+      },
+      "adaptive_hyde": {
+        "all": {
+          "mrr_at_5": 0.026,
+          "recall_at_5": 0.0417
+        },
+        "hard": {
+          "count": 48,
+          "mrr_at_5": 0.026,
+          "recall_at_5": 0.0417
+        },
+        "easy": {
+          "count": 0,
+          "mrr_at_5": 0.0,
+          "recall_at_5": 0.0
+        }
+      },
+      "hybrid": {
+        "all": {
+          "mrr_at_5": 0.025,
+          "recall_at_5": 0.0417
+        },
+        "hard": {
+          "count": 48,
+          "mrr_at_5": 0.025,
+          "recall_at_5": 0.0417
+        },
+        "easy": {
+          "count": 0,
+          "mrr_at_5": 0.0,
+          "recall_at_5": 0.0
+        }
+      }
+    }
+  },
+  "_meta": {
+    "completed_modes": [
+      "naive",
+      "hyde",
+      "adaptive_hyde",
+      "hybrid"
+    ],
+    "pending_modes": [],
+    "all_complete": true
+  }
+}

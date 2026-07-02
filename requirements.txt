@@ -1,0 +1,47 @@
+# ── Core LangChain 全套（补齐缺失包）
+langchain==0.3.7
+langchain-core==0.3.63
+langchain-community==0.3.7
+langchain-openai==0.2.5
+langchain-huggingface==0.1.0
+
+# ── Vector Store ───────────────────────────────────────────
+faiss-cpu==1.8.0
+
+# ── Embeddings & Reranker（Mac MPS 兼容版本锁定）
+sentence-transformers==3.1.1
+transformers==4.46.1
+torch==2.4.0
+torchvision==0.19.0
+accelerate==1.0.1
+
+# ── Document Loaders ──────────────────────────────────────
+pypdf==4.3.1
+python-docx==1.1.2
+unstructured[md]==0.16.0
+
+# ── Token Counter ─────────────────────────────────────────
+tiktoken==0.8.0
+
+# ── LLM Client ────────────────────────────────────────────
+openai==1.54.3
+
+# ── API Server ────────────────────────────────────────────
+fastapi==0.115.4
+uvicorn[standard]==0.32.0
+pydantic==2.9.2
+
+# ── Cache ─────────────────────────────────────────────────
+redis==5.2.0
+
+# ── Config ────────────────────────────────────────────────
+pyyaml==6.0.2
+
+# ── Logging ───────────────────────────────────────────────
+loguru==0.7.2
+
+# ── Math
+numpy==1.26.4
+
+# ── Evaluation（可选）
+ragas==0.2.3

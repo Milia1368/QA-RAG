@@ -1,0 +1,61 @@
+# RAG 企业知识库问答系统 - 全局配置
+
+# ── 文档处理 ──────────────────────────────────────────────
+ingestion:
+  docs_dir: "data/sample_docs"
+  supported_formats: [".pdf", ".docx", ".txt", ".md"]
+  chunk_size: 512          # token 数
+  chunk_overlap: 64        # overlap token 数
+  index_path: "data/faiss_index"
+  metadata_fields: ["source", "page", "title"]
+
+# ── 向量化模型 ────────────────────────────────────────────
+embedding:
+  model_name: "BAAI/bge-large-zh-v1.5"
+  device: "mps"            # cuda / cpu
+  batch_size: 32
+  normalize: true
+
+# ── 检索 ─────────────────────────────────────────────────
+retrieval:
+  top_k: 10                 # 初筛候选数
+  rerank_top_k: 5           # Reranker 后保留数
+  mode: "hyde"              # naive / hyde
+  hyde:
+    num_hypothetical_docs: 3
+    temperature: 0.7
+
+reranker:
+  model_name: "BAAI/bge-reranker-large"
+  device: "mps"
+
+# ── LLM ──────────────────────────────────────────────────
+llm:
+  model_name: "Qwen/Qwen2.5-7B-Instruct"
+  api_base: "http://localhost:8080/v1"   # vLLM OpenAI-compatible endpoint
+  api_key: "EMPTY"
+  temperature: 0.1
+  max_tokens: 1024
+  stream: true
+
+# ── 服务 ─────────────────────────────────────────────────
+server:
+  host: "0.0.0.0"
+  port: 8000
+  workers: 4
+  timeout: 60
+
+# ── Redis 缓存 ───────────────────────────────────────────
+redis:
+  host: "localhost"
+  port: 6379
+  db: 0
+  password: ""
+  ttl: 3600                 # 缓存过期时间（秒）
+  max_connections: 20
+
+# ── 日志 ─────────────────────────────────────────────────
+logging:
+  level: "INFO"
+  file: "logs/rag_system.log"
+  rotation: "100 MB"

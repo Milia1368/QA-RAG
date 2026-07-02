@@ -1,0 +1,45 @@
+version: "3.9"
+
+services:
+  # ── Redis 缓存 ─────────────────────────────────────────────
+  redis:
+    image: redis:7-alpine
+    container_name: rag_redis
+    ports:
+      - "6379:6379"
+    volumes:
+      - redis_data:/data
+    command: redis-server --maxmemory 512mb --maxmemory-policy allkeys-lru
+    healthcheck:
+      test: ["CMD", "redis-cli", "ping"]
+      interval: 5s
+      timeout: 3s
+      retries: 5
+
+  # ── RAG API 服务 ───────────────────────────────────────────
+  rag-api:
+    build: .
+    container_name: rag_api
+    ports:
+      - "8000:8000"
+    volumes:
+      - ./data:/app/data          # 挂载索引与文档目录
+      - ./configs:/app/configs    # 挂载配置文件
+      - ./logs:/app/logs          # 挂载日志目录
+    environment:
+      - PYTHONPATH=/app
+    depends_on:
+      redis:
+        condition: service_healthy
+    # GPU 支持（需要 nvidia-container-toolkit）
+    # deploy:
+    #   resources:
+    #     reservations:
+    #       devices:
+    #         - driver: nvidia
+    #           count: 1
+    #           capabilities: [gpu]
+    restart: unless-stopped
+
+volumes:
+  redis_data:

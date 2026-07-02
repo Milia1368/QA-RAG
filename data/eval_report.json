@@ -1,0 +1,333 @@
+{
+  "naive": {
+    "mode": "naive",
+    "mrr_at_5": 0.68,
+    "recall_at_5": 0.7932,
+    "avg_faithfulness": 0.6711,
+    "avg_answer_accuracy": 0.4679,
+    "avg_latency_ms": 3366.7,
+    "num_samples": 1915,
+    "hyde_trigger_rate": null,
+    "details": [
+      {
+        "query": "哪个城市发放了体育类电子消费券？",
+        "doc_id": "64fa9b27b82641eb8ecbe14d",
+        "reference_answer": "陕西西安市",
+        "answer_preview": "陕西西安市发放了体育类电子消费券。",
+        "answer_accuracy": 1.0,
+        "faithfulness": 0.5,
+        "latency_ms": 3959.8,
+        "retrieved_ids": [
+          "64fa9b27b82641eb8ecbe14d",
+          "64fa9b2eb82641eb8ecbfe0a",
+          "64fa9b2bb82641eb8ecbebed",
+          "64fa9b2eb82641eb8ecbfc86"
+        ],
+        "hit_at_5": true
+      },
+      {
+        "query": "体育类电子消费券的总金额是多少？",
+        "doc_id": "64fa9b27b82641eb8ecbe14d",
+        "reference_answer": "500万元",
+        "answer_preview": "根据参考文档的内容，陕西西安市在2023年7月28日发放了价值500万元的体育类电子消费券。因此，体育类电子消费券的总金额是500万元。",
+        "answer_accuracy": 1.0,
+        "faithfulness": 0.5,
+        "latency_ms": 2465.9,
+        "retrieved_ids": [
+          "64fa9b27b82641eb8ecbe14d",
+          "64fa9b2bb82641eb8ecbebed",
+          "64fa9b32b82641eb8ecc0a3d",
+          "64fa9b2eb82641eb8ecbfe0a"
+        ],
+        "hit_at_5": true
+      },
+      {
+        "query": "市民可以在多少家体育场馆使用这些消费券？",
+        "doc_id": "64fa9b27b82641eb8ecbe14d",
+        "reference_answer": "173家",
+        "answer_preview": "市民可以在全市173家体育场馆使用这些消费券。",
+        "answer_accuracy": 1.0,
+        "faithfulness": 0.5,
+        "latency_ms": 2238.4,
+        "retrieved_ids": [
+          "64fa9b27b82641eb8ecbe14d",
+          "64fa9b2eb82641eb8ecbfe0a",
+          "64fa9b2bb82641eb8ecbebed"
+        ],
+        "hit_at_5": true
+      },
+      {
+        "query": "NP137在哪种试验中显示出了抗肿瘤响应？",
+        "doc_id": "64fa9b27b82641eb8ecbe187",
+        "reference_answer": "人体试验",
+        "answer_preview": "在人体1期临床试验中，一种阻断netrin-1的单克隆抗体NP137被证明是安全的，并观察到抗肿瘤响应。具体数据如下：\n\n- 试验人数：14名晚期子宫内膜癌患者\n- 抗肿瘤响应情况：\n  - 在9名患",
+        "answer_accuracy": 0.0,
+        "faithfulness": 1.0,
+        "latency_ms": 3376.9,
+        "retrieved_ids": [
+          "64fa9b27b82641eb8ecbe187",
+          "64fa9b32b82641eb8ecc08f9"
+        ],
+        "hit_at_5": true
+      },
+      {
+        "query": "在人体试验中，哪种药物对晚期子宫内膜癌患者显示出了抗肿瘤响应？",
+        "doc_id": "64fa9b27b82641eb8ecbe187",
+        "reference_answer": "NP137",
+        "answer_preview": "在人体1期临床试验中，阻断netrin-1的单克隆抗体NP137对晚期子宫内膜癌患者显示出了抗肿瘤响应。具体数据如下：\n\n1. 9名患者观察到了抗肿瘤响应；\n2. 8名患者的病情稳定下来；\n3. 1名",
+        "answer_accuracy": 1.0,
+        "faithfulness": 1.0,
+        "latency_ms": 3580.4,
+        "retrieved_ids": [
+          "64fa9b32b82641eb8ecc08f9",
+          "64fa9b27b82641eb8ecbe187",
+          "64fa9b27b82641eb8ecbe1fa"
+        ],
+        "hit_at_5": true
+      },
+      {
+        "query": "在人体试验中，NP137对多少名晚期子宫内膜癌患者显示出了抗肿瘤响应？",
+        "doc_id": "64fa9b27b82641eb8ecbe187",
+        "reference_answer": "9名",
+        "answer_preview": "根据提供的参考文档，NP137在人体1期临床试验中对9名晚期子宫内膜癌患者显示出了抗肿瘤响应。",
+        "answer_accuracy": 1.0,
+        "faithfulness": 0.5,
+        "latency_ms": 2051.4,
+        "retrieved_ids": [
+          "64fa9b32b82641eb8ecc08f9",
+          "64fa9b27b82641eb8ecbe187"
+        ],
+        "hit_at_5": true
+      },
+      {
+        "query": "在人体试验中，NP137对晚期子宫内膜癌患者显示出了什么响应？",
+        "doc_id": "64fa9b27b82641eb8ecbe187",
+        "reference_answer": "抗肿瘤响应",
+        "answer_preview": "在人体试验中，NP137对晚期子宫内膜癌患者显示了抗肿瘤响应。具体表现为9名患者观察到了抗肿瘤反应，8名患者的病情稳定下来，1名患者的肝转移灶缩小超过50%。[文档2]",
+        "answer_accuracy": 1.0,
+        "faithfulness": 0.5,
+        "latency_ms": 2232.6,
+        "retrieved_ids": [
+          "64fa9b32b82641eb8ecc08f9",
+          "64fa9b27b82641eb8ecbe187"
+        ],
+        "hit_at_5": true
+      },
+      {
+        "query": "什么是'启明行动'？",
+        "doc_id": "64fa9b27b82641eb8ecbe14c",
+        "reference_answer": "无法推断",
+        "answer_preview": "\"启明行动\"是国家卫生健康委在全国范围内开展的防控儿童青少年近视健康促进活动，发布《防控儿童青少年近视核心知识十条》。该行动倡导和推动家庭及全社会共同行动起来，营造爱眼护眼的视觉友好环境，并通过各种形",
+        "answer_accuracy": 0.0,
+        "faithfulness": 1.0,
+        "latency_ms": 3032.3,
+        "retrieved_ids": [
+          "64fa9b27b82641eb8ecbe14c",
+          "64fa9b31b82641eb8ecc05cd",
+          "64fa9b2fb82641eb8ecc011d",
+          "64fa9b2db82641eb8ecbf710",
+          "64fa9b2db82641eb8ecbf5ef"
+        ],
+        "hit_at_5": true
+      },
+      {
+        "query": "启明行动是为了解决什么问题？",
+        "doc_id": "64fa9b27b82641eb8ecbe14c",
+        "reference_answer": "儿童青少年的近视问题",
+        "answer_preview": "启明行动是为了防控近视的问题。",
+        "answer_accuracy": 0.0,
+        "faithfulness": 0.0,
+        "latency_ms": 2279.8,
+        "retrieved_ids": [
+          "64fa9b27b82641eb8ecbe14c",
+          "64fa9b2fb82641eb8ecc011d",
+          "64fa9b2cb82641eb8ecbf189",
+          "64fa9b31b82641eb8ecc06df",
+          "64fa9b30b82641eb8ecc0306"
+        ],
+        "hit_at_5": true
+      },
+      {
+        "query": "启明行动发布了什么文件？",
+        "doc_id": "64fa9b27b82641eb8ecbe14c",
+        "reference_answer": "《防控儿童青少年近视核心知识十条》",
+        "answer_preview": "根据提供的参考文档，启明行动发布的是关于防控近视的文件。具体信息如下：\n\n1. 来源: data/eval_docs/docs/64fa9b27b82641eb8ecbe14c.txt | 第3段\n内",
+        "answer_accuracy": 0.0,
+        "faithfulness": 0.33,
+        "latency_ms": 7462.9,
+        "retrieved_ids": [
+          "64fa9b28b82641eb8ecbe7f4",
+          "64fa9b27b82641eb8ecbe14c",
+          "64fa9b2fb82641eb8ecc011d",
+          "64fa9b29b82641eb8ecbea3b"
+        ],
+        "hit_at_5": true
+      },
+      {
+        "query": "每天需要食用多少克的坚果可以降低抑郁症的风险？",
+        "doc_id": "64fa9b27b82641eb8ecbe1f2",
+        "reference_answer": "无法推断",
+        "answer_preview": "根据参考文档的内容，每天食用30克坚果可以降低17%的抑郁症风险。具体来源是文档1中的第2段和第3段。",
+        "answer_accuracy": 0.0,
+        "faithfulness": 1.0,
+        "latency_ms": 2683.2,
+        "retrieved_ids": [
+          "64fa9b27b82641eb8ecbe1f2",
+          "64fa9b27b82641eb8ecbe1e8"
+        ],
+        "hit_at_5": true
+      },
+      {
+        "query": "每天食用30克坚果可以将抑郁症的风险降低多少？",
+        "doc_id": "64fa9b27b82641eb8ecbe1f2",
+        "reference_answer": "17%",
+        "answer_preview": "根据参考文档的内容，每天食用30克坚果可以将抑郁症的风险降低17%。",
+        "answer_accuracy": 1.0,
+        "faithfulness": 0.5,
+        "latency_ms": 2257.7,
+        "retrieved_ids": [
+          "64fa9b27b82641eb8ecbe1f2",
+          "64fa9b27b82641eb8ecbe1e8"
+        ],
+        "hit_at_5": true
+      },
+      {
+        "query": "谁强调大暑养生的关键在于养“心阴”和护“脾气”？",
+        "doc_id": "64fa9b27b82641eb8ecbe164",
+        "reference_answer": "徐顺娟",
+        "answer_preview": "2023年7月31日的大暑节气，江苏省中医院急诊科副主任、副主任中医师徐顺娟强调大暑养生的关键在于养\"心阴\"和护\"脾气\"。[文档1]",
+        "answer_accuracy": 1.0,
+        "faithfulness": 0.5,
+        "latency_ms": 2916.2,
+        "retrieved_ids": [
+          "64fa9b27b82641eb8ecbe164",
+          "64fa9b2bb82641eb8ecbecaf"
+        ],
+        "hit_at_5": true
+      },
+      {
+        "query": "徐顺娟强调哪个季节的养生？",
+        "doc_id": "64fa9b27b82641eb8ecbe164",
+        "reference_answer": "大暑",
+        "answer_preview": "徐顺娟在2023年7月31日的大暑节气期间，提出大暑养生的关键在于养心阴和护脾气。因此，她强调的是夏季的养生问题。",
+        "answer_accuracy": 1.0,
+        "faithfulness": 0.5,
+        "latency_ms": 2550.6,
+        "retrieved_ids": [
+          "64fa9b27b82641eb8ecbe164",
+          "64fa9b2bb82641eb8ecbeddb",
+          "64fa9b2bb82641eb8ecbecaf"
+        ],
+        "hit_at_5": true
+      },
+      {
+        "query": "徐顺娟强调大暑养生的关键在于养什么？",
+        "doc_id": "64fa9b27b82641eb8ecbe164",
+        "reference_answer": "心阴",
+        "answer_preview": "徐顺娟强调大暑养生的关键在于养心阴和护脾气。",
+        "answer_accuracy": 1.0,
+        "faithfulness": 0.5,
+        "latency_ms": 2118.2,
+        "retrieved_ids": [
+          "64fa9b27b82641eb8ecbe164",
+          "64fa9b2bb82641eb8ecbecaf"
+        ],
+        "hit_at_5": true
+      },
+      {
+        "query": "徐顺娟强调大暑养生的关键在于护什么？",
+        "doc_id": "64fa9b27b82641eb8ecbe164",
+        "reference_answer": "脾气",
+        "answer_preview": "徐顺娟强调大暑养生的关键在于护\"脾气\"。[文档2]提供了详细解释，指出大暑节气是暑热交蒸的时节，需要特别注意保护脾胃功能，避免因过度出汗、饮食不当等因素导致的不适症状。",
+        "answer_accuracy": 1.0,
+        "faithfulness": 0.5,
+        "latency_ms": 2486.4,
+        "retrieved_ids": [
+          "64fa9b27b82641eb8ecbe164",
+          "64fa9b2bb82641eb8ecbecaf"
+        ],
+        "hit_at_5": true
+      },
+      {
+        "query": "在什么情况下建议采用防晒措施？",
+        "doc_id": "64fa9b27b82641eb8ecbe190",
+        "reference_answer": "户外活动超过半小时或紫外线强烈时",
+        "answer_preview": "根据参考文档的内容，建议采用防晒措施的情况包括：\n\n1. **皮肤敏感的患者**：通常建议选择硬防晒或物理防晒霜。\n2. **紫外线强烈时**：如果户外活动时间超过半小时，或者紫外线指数较高（如紫外线",
+        "answer_accuracy": 0.0,
+        "faithfulness": 1.0,
+        "latency_ms": 3468.1,
+        "retrieved_ids": [
+          "64fa9b27b82641eb8ecbe190",
+          "64fa9b34b82641eb8ecc156d",
+          "64fa9b28b82641eb8ecbe7f6",
+          "64fa9b27b82641eb8ecbe15a",
+          "64fa9b28b82641eb8ecbe859"
+        ],
+        "hit_at_5": true
+      },
+      {
+        "query": "在什么情况下紫外线会强烈？",
+        "doc_id": "64fa9b27b82641eb8ecbe190",
+        "reference_answer": "无法推断",
+        "answer_preview": "根据参考文档的内容，俄罗斯的紫外线指数预计会在未来几天非常高。阿斯特拉罕地区的紧急情况部已经发布了气象灾害预警，并警告43摄氏度的热浪是直接致命的。此外，由于该地区位于欧亚大陆最北端，因此极端高温对于",
+        "answer_accuracy": 0.0,
+        "faithfulness": 1.0,
+        "latency_ms": 2961.8,
+        "retrieved_ids": [
+          "64fa9b27b82641eb8ecbe190",
+          "64fa9b32b82641eb8ecc09cf",
+          "64fa9b2db82641eb8ecbf633",
+          "64fa9b2db82641eb8ecbf5e3",
+          "64fa9b32b82641eb8ecc08ae"
+        ],
+        "hit_at_5": true
+      },
+      {
+        "query": "什么是硬防晒？",
+        "doc_id": "64fa9b27b82641eb8ecbe190",
+        "reference_answer": "无法推断",
+        "answer_preview": "硬防晒是指通过遮阳伞、墨镜、防晒衣等物理方法来阻挡紫外线，达到防护皮肤的目的。常晓医生建议，对于在居家或办公环境下的人，如果不是长期处于透明玻璃旁，就无需使用防晒霜。如果户外活动时间短或紫外线指数低，",
+        "answer_accuracy": 0.0,
+        "faithfulness": 0.5,
+        "latency_ms": 2974.5,
+        "retrieved_ids": [
+          "64fa9b27b82641eb8ecbe190",
+          "64fa9b27b82641eb8ecbe22e",
+          "64fa9b27b82641eb8ecbe21b",
+          "64fa9b2cb82641eb8ecbf2c1"
+        ],
+        "hit_at_5": true
+      },
+      {
+        "query": "涂抹防晒霜是什么防晒措施？",
+        "doc_id": "64fa9b27b82641eb8ecbe190",
+        "reference_answer": "无法推断",
+        "answer_preview": "根据参考文档的内容，涂抹防晒霜是物理防晒的一种。具体来说：\n\n1. **皮肤比较敏感的患者一般建议选择硬防晒或物理防晒霜**。\n2. **使用防晒霜后还要做好清洁**。\n3. **对于防水抗汗型的防晒",
+        "answer_accuracy": 0.0,
+        "faithfulness": 1.0,
+        "latency_ms": 2803.8,
+        "retrieved_ids": [
+          "64fa9b27b82641eb8ecbe190",
+          "64fa9b27b82641eb8ecbe164",
+          "64fa9b27b82641eb8ecbe51e",
+          "64fa9b31b82641eb8ecc071f",
+          "64fa9b27b82641eb8ecbe15a"
+        ],
+        "hit_at_5": true
+      }
+    ]
+  },
+  "hyde": null,
+  "adaptive_hyde": null,
+  "summary": null,
+  "_meta": {
+    "completed_modes": [
+      "naive"
+    ],
+    "pending_modes": [
+      "hyde",
+      "adaptive_hyde"
+    ],
+    "all_complete": false
+  }
+}

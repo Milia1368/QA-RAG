@@ -1,0 +1,1073 @@
+{
+  "naive": {
+    "mode": "naive",
+    "mrr_at_5": 0.6428,
+    "recall_at_5": 0.76,
+    "avg_faithfulness": 0.6398,
+    "avg_answer_accuracy": 0.515,
+    "avg_latency_ms": 3169.7,
+    "num_samples": 200,
+    "hyde_trigger_rate": null,
+    "details": [
+      {
+        "query": "谁在武汉东湖绿道入口附近突然晕倒？",
+        "doc_id": "64fa9b2fb82641eb8ecbff5c",
+        "reference_answer": "赵荀的儿子",
+        "answer_preview": "根据提供的参考文档，2023年8月16日晚上11时，中国内地知名男演员赵荀的儿子在武汉东湖绿道入口附近突然晕倒。",
+        "answer_accuracy": 1.0,
+        "faithfulness": 0.5,
+        "latency_ms": 7346.5,
+        "retrieved_ids": [
+          "64fa9b2fb82641eb8ecbff5c",
+          "64fa9b2fb82641eb8ecc009c",
+          "64fa9b2cb82641eb8ecbee92",
+          "64fa9b2cb82641eb8ecbefe9"
+        ],
+        "hit_at_5": true
+      },
+      {
+        "query": "金属纳米团簇的新光波导行为可以在哪些领域广泛应用？",
+        "doc_id": "64fa9b28b82641eb8ecbe66a",
+        "reference_answer": "光电调制器、光子耦合器、光子电路等领域",
+        "answer_preview": "根据安徽大学先进材料原子工程研究中心在金属纳米团簇中发现的新的光波导行为，这一发现具有重要的应用价值。它为开发配体保护的金属纳米团簇作为活性光波导材料提供了理论基础和应用前景，为构建基于团簇的小型化集",
+        "answer_accuracy": 0.0,
+        "faithfulness": 1.0,
+        "latency_ms": 5043.3,
+        "retrieved_ids": [
+          "64fa9b28b82641eb8ecbe66a",
+          "64fa9b2cb82641eb8ecbf00a",
+          "64fa9b2cb82641eb8ecbf2fd",
+          "64fa9b32b82641eb8ecc0eec"
+        ],
+        "hit_at_5": true
+      },
+      {
+        "query": "产品质量监督抽检是什么？",
+        "doc_id": "64fa9b27b82641eb8ecbe156",
+        "reference_answer": "对产品质量进行抽样检测和监督",
+        "answer_preview": "产品质量监督抽检是通过抽取一定数量的产品样本，按照相关标准进行检验和检测，以评估产品的质量状况。根据提供的参考文档信息：\n\n1. [文档2] 第1段提到：“2023年上半年，全国市场监管部门完成了近3",
+        "answer_accuracy": 0.0,
+        "faithfulness": 1.0,
+        "latency_ms": 3814.9,
+        "retrieved_ids": [
+          "64fa9b2eb82641eb8ecbfc1d",
+          "64fa9b27b82641eb8ecbe156",
+          "64fa9b31b82641eb8ecc0694",
+          "64fa9b2eb82641eb8ecbfb62",
+          "64fa9b31b82641eb8ecc0748"
+        ],
+        "hit_at_5": true
+      },
+      {
+        "query": "川岛秀一提到了什么历史经历？",
+        "doc_id": "64fa9b30b82641eb8ecc02e3",
+        "reference_answer": "鱼类被污染的经历",
+        "answer_preview": "根据参考文档，川岛秀一对话提到的历史经历是历史上鱼类被污染的经历。他反对日本政府将核污染水排海的决定，认为这是重蹈覆辙，并且对历史问题缺乏反思。[文档3]",
+        "answer_accuracy": 1.0,
+        "faithfulness": 0.5,
+        "latency_ms": 2765.6,
+        "retrieved_ids": [
+          "64fa9b30b82641eb8ecc02e3",
+          "64fa9b30b82641eb8ecc02a9",
+          "64fa9b32b82641eb8ecc096a",
+          "64fa9b2fb82641eb8ecc0183"
+        ],
+        "hit_at_5": true
+      },
+      {
+        "query": "有多少支代表团参加了开幕式？",
+        "doc_id": "64fa9b2cb82641eb8ecbeeb0",
+        "reference_answer": "18支",
+        "answer_preview": "有18个代表团参加了开幕式。",
+        "answer_accuracy": 0.0,
+        "faithfulness": 0.5,
+        "latency_ms": 2449.6,
+        "retrieved_ids": [
+          "64fa9b2fb82641eb8ecc01bf",
+          "64fa9b2cb82641eb8ecbeec0",
+          "64fa9b28b82641eb8ecbe7b0",
+          "64fa9b2db82641eb8ecbf587",
+          "64fa9b2eb82641eb8ecbfd10"
+        ],
+        "hit_at_5": false
+      },
+      {
+        "query": "会谈的主要内容是什么？",
+        "doc_id": "64fa9b2bb82641eb8ecbed1d",
+        "reference_answer": "合力打击缅境内的电诈网赌等犯罪活动",
+        "answer_preview": "根据提供的参考文档内容，会谈的主要内容包括：\n1. 美国国务卿布林肯、日本外务大臣林芳正和韩国外长朴振举行视频会议，讨论即将举行的三国领导人会议的议题。\n2. 三国外长可能就峰会将发表的成果文件交换意",
+        "answer_accuracy": 0.0,
+        "faithfulness": 1.0,
+        "latency_ms": 3781.9,
+        "retrieved_ids": [
+          "64fa9b2fb82641eb8ecc017e",
+          "64fa9b28b82641eb8ecbe896",
+          "64fa9b32b82641eb8ecc08d8",
+          "64fa9b30b82641eb8ecc0376",
+          "64fa9b27b82641eb8ecbe449"
+        ],
+        "hit_at_5": false
+      },
+      {
+        "query": "问天WA7780 G3 AI大模型训练服务器预留了什么设计？",
+        "doc_id": "64fa9b2bb82641eb8ecbec56",
+        "reference_answer": "液冷冷板设计",
+        "answer_preview": "根据提供的参考文档，联想集团副总裁、ISG中国服务器事业部总经理陈振宽在2023年中国算力大会上发布了两款新的AI服务器。其中，问天WA7780 G3 AI大模型训练服务器采用了三重独立风道设计，并预",
+        "answer_accuracy": 1.0,
+        "faithfulness": 0.5,
+        "latency_ms": 3237.9,
+        "retrieved_ids": [
+          "64fa9b2bb82641eb8ecbec56",
+          "64fa9b2bb82641eb8ecbebbe",
+          "64fa9b30b82641eb8ecc02b6",
+          "64fa9b32b82641eb8ecc0ee8"
+        ],
+        "hit_at_5": true
+      },
+      {
+        "query": "城中村改造可以采取哪些方式？",
+        "doc_id": "64fa9b28b82641eb8ecbe7cb",
+        "reference_answer": "拆除新建、整治提升、拆整结合",
+        "answer_preview": "根据提供的参考文档，城中村改造可以采取以下几种方式：\n\n1. **拆除新建**：通过彻底拆除旧房并重建新房来改造城市区域。\n2. **整治提升**：对现有建筑进行整体翻新和改善，提高居住环境质量。\n3",
+        "answer_accuracy": 0.0,
+        "faithfulness": 0.6,
+        "latency_ms": 3339.3,
+        "retrieved_ids": [
+          "64fa9b28b82641eb8ecbe7cb",
+          "64fa9b31b82641eb8ecc0674",
+          "64fa9b2db82641eb8ecbf8f8",
+          "64fa9b2cb82641eb8ecbef9e",
+          "64fa9b28b82641eb8ecbe8fe"
+        ],
+        "hit_at_5": true
+      },
+      {
+        "query": "试飞的无人战斗机是什么型号？",
+        "doc_id": "64fa9b30b82641eb8ecc02b6",
+        "reference_answer": "XQ-58A“女武神”",
+        "answer_preview": "根据提供的参考文档信息，无人战斗机是XQ-58A\"女武神\"。具体来源为：\n[文档1] 来源: data/eval_docs/docs/64fa9b30b82641eb8ecc02b6.txt | 第1",
+        "answer_accuracy": 0.0,
+        "faithfulness": 0.5,
+        "latency_ms": 3580.7,
+        "retrieved_ids": [
+          "64fa9b30b82641eb8ecc02b6",
+          "64fa9b2cb82641eb8ecbf0f1"
+        ],
+        "hit_at_5": true
+      },
+      {
+        "query": "安徽省网信办清理了多少条违规信息？",
+        "doc_id": "64fa9b28b82641eb8ecbe5f9",
+        "reference_answer": "4万余条",
+        "answer_preview": "根据提供的参考文档，安徽省网信办在2023年7月28日整治网络\"自媒体\"乱象情况时，共清理违规信息4万余条。具体来源是第0段的[文档1]。",
+        "answer_accuracy": 1.0,
+        "faithfulness": 0.5,
+        "latency_ms": 2931.5,
+        "retrieved_ids": [
+          "64fa9b28b82641eb8ecbe5f9",
+          "64fa9b2eb82641eb8ecbfb5a",
+          "64fa9b2cb82641eb8ecbeee1"
+        ],
+        "hit_at_5": true
+      },
+      {
+        "query": "火灾导致了多少人死亡？",
+        "doc_id": "64fa9b2fb82641eb8ecc009d",
+        "reference_answer": "至少34人",
+        "answer_preview": "根据提供的参考文档，火灾导致了至少67人遇难。具体信息来自第1段的第2句：“夏威夷州毛伊郡官员表示，'随着消防工作的继续，截至当地时间11日13时，又确认了12人在野火中死亡，遇难人数升至67人。'\"",
+        "answer_accuracy": 0.0,
+        "faithfulness": 0.5,
+        "latency_ms": 3122.7,
+        "retrieved_ids": [
+          "64fa9b2fb82641eb8ecc009d",
+          "64fa9b33b82641eb8ecc125f",
+          "64fa9b2db82641eb8ecbf633",
+          "64fa9b30b82641eb8ecc0392",
+          "64fa9b30b82641eb8ecc039a"
+        ],
+        "hit_at_5": true
+      },
+      {
+        "query": "川岛秀一反对日本政府将核污染水排入大海的原因是什么？",
+        "doc_id": "64fa9b30b82641eb8ecc02e3",
+        "reference_answer": "使福岛渔业的恢复努力化为泡影",
+        "answer_preview": "根据参考文档的内容，川岛秀一对日本政府将核污染水排入大海的反对原因主要有以下几点：\n\n1. **渔业恢复**：川岛认为渔民们在过去的12年间坚持不懈的努力才使得当地渔业从核事故的巨大打击下一点点恢复起",
+        "answer_accuracy": 0.0,
+        "faithfulness": 0.0,
+        "latency_ms": 4743.8,
+        "retrieved_ids": [
+          "64fa9b30b82641eb8ecc02e3",
+          "64fa9b2cb82641eb8ecbf2e0",
+          "64fa9b30b82641eb8ecc03bc",
+          "64fa9b2cb82641eb8ecbf2d0"
+        ],
+        "hit_at_5": true
+      },
+      {
+        "query": "马斯克提议的拳击比赛计划将在哪个社交平台直播？",
+        "doc_id": "64fa9b32b82641eb8ecc098f",
+        "reference_answer": "X（原推特）",
+        "answer_preview": "根据提供的参考文档，马斯克提议的拳击比赛计划将在社交平台\"X\"上直播。具体来源为文档1中的第0段。",
+        "answer_accuracy": 0.0,
+        "faithfulness": 0.5,
+        "latency_ms": 2722.7,
+        "retrieved_ids": [
+          "64fa9b32b82641eb8ecc098f",
+          "64fa9b32b82641eb8ecc09d0",
+          "64fa9b32b82641eb8ecc09cb",
+          "64fa9b30b82641eb8ecc02c9"
+        ],
+        "hit_at_5": true
+      },
+      {
+        "query": "浙江省实施省级统一命题的学科有哪些？",
+        "doc_id": "64fa9b2eb82641eb8ecbfb09",
+        "reference_answer": "语文、数学、英语、科学、社会",
+        "answer_preview": "根据《浙江省教育厅关于实施初中学业水平考试全省统一命题的通知(征求意见稿)》，从2024年起，语文、数学、英语、科学、社会等5门学科将由省级统一命题。[文档1]",
+        "answer_accuracy": 1.0,
+        "faithfulness": 0.5,
+        "latency_ms": 3016.5,
+        "retrieved_ids": [
+          "64fa9b2eb82641eb8ecbfb09",
+          "64fa9b2eb82641eb8ecbfc21",
+          "64fa9b2db82641eb8ecbf76d",
+          "64fa9b2fb82641eb8ecbfe9e",
+          "64fa9b2db82641eb8ecbf793"
+        ],
+        "hit_at_5": true
+      },
+      {
+        "query": "2023年中国寻根之旅夏令营在哪里举行？",
+        "doc_id": "64fa9b27b82641eb8ecbe47d",
+        "reference_answer": "三亚",
+        "answer_preview": "2023年中国寻根之旅夏令营在北京朝阳区举行。具体信息如下：\n\n- 7月21日，开营仪式在北京市侨联、北京市朝阳区侨联共同承办的北京国际汉语研修学院举行。\n- 7月22日，活动内容包括主题讲座、参观游",
+        "answer_accuracy": 0.0,
+        "faithfulness": 1.0,
+        "latency_ms": 3679.5,
+        "retrieved_ids": [
+          "64fa9b2eb82641eb8ecbfe52",
+          "64fa9b27b82641eb8ecbe47d",
+          "64fa9b27b82641eb8ecbe519",
+          "64fa9b27b82641eb8ecbe3ad",
+          "64fa9b2bb82641eb8ecbec8d"
+        ],
+        "hit_at_5": true
+      },
+      {
+        "query": "允许哪些货物整报分送、单车进出区？",
+        "doc_id": "64fa9b2eb82641eb8ecbfc56",
+        "reference_answer": "特定类型货物",
+        "answer_preview": "根据参考文档的内容，允许特定类型货物整报分送、单车进出区。具体措施包括优化境外退运货物监管，降低现场调查和书面调查比例等。[文档2] 第2段提供了详细信息。",
+        "answer_accuracy": 1.0,
+        "faithfulness": 1.0,
+        "latency_ms": 2893.2,
+        "retrieved_ids": [
+          "64fa9b2eb82641eb8ecbfc56",
+          "64fa9b2cb82641eb8ecbefe5",
+          "64fa9b28b82641eb8ecbe61b",
+          "64fa9b2db82641eb8ecbf9e1",
+          "64fa9b2cb82641eb8ecbef61"
+        ],
+        "hit_at_5": true
+      },
+      {
+        "query": "截至2023年8月18日，中国载人航天工程已有多少项空间应用成果？",
+        "doc_id": "64fa9b2db82641eb8ecbf4b5",
+        "reference_answer": "4000余项",
+        "answer_preview": "截至2023年8月18日，中国载人航天工程已有4000余项空间应用成果。",
+        "answer_accuracy": 1.0,
+        "faithfulness": 1.0,
+        "latency_ms": 2624.7,
+        "retrieved_ids": [
+          "64fa9b2db82641eb8ecbf4b5",
+          "64fa9b2db82641eb8ecbf4bd",
+          "64fa9b28b82641eb8ecbe6ee",
+          "64fa9b2db82641eb8ecbf4aa"
+        ],
+        "hit_at_5": true
+      },
+      {
+        "query": "河北省运动员在全国A类、B类比赛中共获得了多少枚全运会项目奖牌？",
+        "doc_id": "64fa9b27b82641eb8ecbe275",
+        "reference_answer": "94枚",
+        "answer_preview": "河北省运动员在全国A类、B类比赛中获得的全运会项目奖牌总数为94枚。具体数据如下：\n\n- 2023年上半年，共获得94枚全运会项目金牌，其中28枚金牌；\n- 全国A类、B类比赛中共获得51枚夏季项目奖",
+        "answer_accuracy": 1.0,
+        "faithfulness": 1.0,
+        "latency_ms": 3630.7,
+        "retrieved_ids": [
+          "64fa9b27b82641eb8ecbe275",
+          "64fa9b27b82641eb8ecbe25b"
+        ],
+        "hit_at_5": true
+      },
+      {
+        "query": "中国女足战胜了哪个队伍？",
+        "doc_id": "64fa9b27b82641eb8ecbe279",
+        "reference_answer": "海地队",
+        "answer_preview": "根据提供的参考文档，中国女足在2023年7月28日的比赛中以1:0战胜了海地队。",
+        "answer_accuracy": 1.0,
+        "faithfulness": 0.5,
+        "latency_ms": 3059.5,
+        "retrieved_ids": [
+          "64fa9b27b82641eb8ecbe279",
+          "64fa9b2eb82641eb8ecbfdc0",
+          "64fa9b2cb82641eb8ecbeec7",
+          "64fa9b2cb82641eb8ecbeec8"
+        ],
+        "hit_at_5": true
+      },
+      {
+        "query": "哪所学校是台北的？",
+        "doc_id": "64fa9b27b82641eb8ecbe53a",
+        "reference_answer": "台北私立静心中学",
+        "answer_preview": "根据提供的参考文档，台湾地区有三所学校参与了第五届海峡两岸中华传统文化学生文艺营。具体如下：\n\n1. 台北私立静心中学\n2. 济南汇才学校\n3. 天津英华实验学校\n\n这些学校共同举办了此次活动，并通过",
+        "answer_accuracy": 1.0,
+        "faithfulness": 1.0,
+        "latency_ms": 3291.6,
+        "retrieved_ids": [
+          "64fa9b27b82641eb8ecbe53a",
+          "64fa9b2eb82641eb8ecbfc98",
+          "64fa9b2cb82641eb8ecbf047",
+          "64fa9b27b82641eb8ecbe2f9",
+          "64fa9b27b82641eb8ecbe449"
+        ],
+        "hit_at_5": true
+      }
+    ]
+  },
+  "hyde": {
+    "mode": "hyde",
+    "mrr_at_5": 0.5272,
+    "recall_at_5": 0.625,
+    "avg_faithfulness": 0.6087,
+    "avg_answer_accuracy": 0.45,
+    "avg_latency_ms": 4839.4,
+    "num_samples": 200,
+    "hyde_trigger_rate": null,
+    "details": [
+      {
+        "query": "谁在武汉东湖绿道入口附近突然晕倒？",
+        "doc_id": "64fa9b2fb82641eb8ecbff5c",
+        "reference_answer": "赵荀的儿子",
+        "answer_preview": "根据提供的参考文档，2023年8月16日晚上11时，中国内地知名男演员赵荀的儿子在武汉东湖绿道入口附近突然晕倒。",
+        "answer_accuracy": 1.0,
+        "faithfulness": 1.0,
+        "latency_ms": 4759.0,
+        "retrieved_ids": [
+          "64fa9b2fb82641eb8ecc0036",
+          "64fa9b2fb82641eb8ecbff5c",
+          "64fa9b2db82641eb8ecbf6bf",
+          "64fa9b2db82641eb8ecbf97c",
+          "64fa9b2cb82641eb8ecbef39"
+        ],
+        "hit_at_5": true
+      },
+      {
+        "query": "金属纳米团簇的新光波导行为可以在哪些领域广泛应用？",
+        "doc_id": "64fa9b28b82641eb8ecbe66a",
+        "reference_answer": "光电调制器、光子耦合器、光子电路等领域",
+        "answer_preview": "根据安徽大学先进材料原子工程研究中心在金属纳米团簇中发现的新的光波导行为，这一发现具有重要的应用价值。具体来说：\n\n1. **光学器件和光学系统**：光波导是实现光电集成和光子集成的关键组件，在光通信",
+        "answer_accuracy": 0.0,
+        "faithfulness": 0.5,
+        "latency_ms": 6308.9,
+        "retrieved_ids": [
+          "64fa9b28b82641eb8ecbe66a",
+          "64fa9b2cb82641eb8ecbf00a",
+          "64fa9b32b82641eb8ecc08e9",
+          "64fa9b28b82641eb8ecbe7a0",
+          "64fa9b2cb82641eb8ecbf2fd"
+        ],
+        "hit_at_5": true
+      },
+      {
+        "query": "产品质量监督抽检是什么？",
+        "doc_id": "64fa9b27b82641eb8ecbe156",
+        "reference_answer": "对产品质量进行抽样检测和监督",
+        "answer_preview": "根据参考文档1的内容，产品质量监督抽检是省级药品监督管理部门对产品进行的检查和评估。具体来说，他们会对抽检不符合标准规定的产品进行风险评估，并根据医疗器械缺陷的严重程度确定召回级别，督促企业主动召回不",
+        "answer_accuracy": 0.0,
+        "faithfulness": 0.6,
+        "latency_ms": 5227.9,
+        "retrieved_ids": [
+          "64fa9b31b82641eb8ecc0694",
+          "64fa9b27b82641eb8ecbe22e",
+          "64fa9b27b82641eb8ecbe156",
+          "64fa9b2eb82641eb8ecbfb8e",
+          "64fa9b27b82641eb8ecbe249"
+        ],
+        "hit_at_5": true
+      },
+      {
+        "query": "川岛秀一提到了什么历史经历？",
+        "doc_id": "64fa9b30b82641eb8ecc02e3",
+        "reference_answer": "鱼类被污染的经历",
+        "answer_preview": "根据参考文档，川岛秀一提到的历史经历是历史上鱼类被污染的经历。他反对日本政府将核污染水排入大海的决定，认为这是重蹈覆辙，并且对渔业后继无人表示担忧。[文档3]",
+        "answer_accuracy": 1.0,
+        "faithfulness": 1.0,
+        "latency_ms": 4891.4,
+        "retrieved_ids": [
+          "64fa9b30b82641eb8ecc02e3",
+          "64fa9b2db82641eb8ecbf5d7",
+          "64fa9b30b82641eb8ecc02a9",
+          "64fa9b2cb82641eb8ecbf2d0",
+          "64fa9b32b82641eb8ecc09c6"
+        ],
+        "hit_at_5": true
+      },
+      {
+        "query": "有多少支代表团参加了开幕式？",
+        "doc_id": "64fa9b2cb82641eb8ecbeeb0",
+        "reference_answer": "18支",
+        "answer_preview": "根据参考文档的内容，开幕式上共有以下代表团参加：\n\n1. 中国人民对外友好协会会长林松添（来自中国）\n2. 新华通讯社副社长袁炳忠主持开幕式\n\n因此，总共有2支代表团参加了开幕式。",
+        "answer_accuracy": 0.0,
+        "faithfulness": 1.0,
+        "latency_ms": 4692.7,
+        "retrieved_ids": [
+          "64fa9b32b82641eb8ecc088c",
+          "64fa9b30b82641eb8ecc0411",
+          "64fa9b2db82641eb8ecbf4c9",
+          "64fa9b30b82641eb8ecc03f2",
+          "64fa9b28b82641eb8ecbe751"
+        ],
+        "hit_at_5": false
+      },
+      {
+        "query": "会谈的主要内容是什么？",
+        "doc_id": "64fa9b2bb82641eb8ecbed1d",
+        "reference_answer": "合力打击缅境内的电诈网赌等犯罪活动",
+        "answer_preview": "根据提供的参考文档，会谈的主要内容包括：\n\n1. **G20国家环境领域合作潜力巨大**。中方呼吁G20各国加强行动与务实合作，携手应对气候变化、环境污染、土地荒漠化、粮食安全和生态安全等全球性挑战。",
+        "answer_accuracy": 0.0,
+        "faithfulness": 0.5,
+        "latency_ms": 7082.5,
+        "retrieved_ids": [
+          "64fa9b2eb82641eb8ecbfdd5",
+          "64fa9b32b82641eb8ecc088c",
+          "64fa9b2db82641eb8ecbf4c9",
+          "64fa9b2bb82641eb8ecbebca",
+          "64fa9b2eb82641eb8ecbfb18"
+        ],
+        "hit_at_5": false
+      },
+      {
+        "query": "问天WA7780 G3 AI大模型训练服务器预留了什么设计？",
+        "doc_id": "64fa9b2bb82641eb8ecbec56",
+        "reference_answer": "液冷冷板设计",
+        "answer_preview": "根据参考文档的内容，联想集团副总裁、ISG中国服务器事业部总经理陈振宽表示，问天WA7780 G3 AI大模型训练服务器在设计中采用了三重独立风道设计。[文档1]",
+        "answer_accuracy": 0.0,
+        "faithfulness": 0.5,
+        "latency_ms": 5397.2,
+        "retrieved_ids": [
+          "64fa9b2bb82641eb8ecbec56",
+          "64fa9b2bb82641eb8ecbeb7c",
+          "64fa9b2bb82641eb8ecbec17",
+          "64fa9b2bb82641eb8ecbebbe"
+        ],
+        "hit_at_5": true
+      },
+      {
+        "query": "城中村改造可以采取哪些方式？",
+        "doc_id": "64fa9b28b82641eb8ecbe7cb",
+        "reference_answer": "拆除新建、整治提升、拆整结合",
+        "answer_preview": "根据提供的参考文档，城中村改造可以采取以下几种方式：\n\n1. **拆除新建**：通过彻底拆除旧房并重建新房来改造城市区域。\n2. **整治提升**：对现有建筑进行改善和升级，使其达到现代化标准。\n3.",
+        "answer_accuracy": 0.0,
+        "faithfulness": 0.6,
+        "latency_ms": 5321.6,
+        "retrieved_ids": [
+          "64fa9b28b82641eb8ecbe7cb",
+          "64fa9b2eb82641eb8ecbfb3a",
+          "64fa9b2eb82641eb8ecbfb8a",
+          "64fa9b2fb82641eb8ecbfeb2"
+        ],
+        "hit_at_5": true
+      },
+      {
+        "query": "试飞的无人战斗机是什么型号？",
+        "doc_id": "64fa9b30b82641eb8ecc02b6",
+        "reference_answer": "XQ-58A“女武神”",
+        "answer_preview": "根据参考文档的内容，无人战斗机是XQ-58A\"女武神\"。具体来源为第1段的第2句：\"由AI程序控制的XQ-58A'女武神'无人战斗机在美国佛罗里达州埃格林测试和训练场成功进行了试飞。\"",
+        "answer_accuracy": 0.0,
+        "faithfulness": 0.5,
+        "latency_ms": 4197.3,
+        "retrieved_ids": [
+          "64fa9b2cb82641eb8ecbf2d9",
+          "64fa9b2cb82641eb8ecbf0f1",
+          "64fa9b30b82641eb8ecc02b6",
+          "64fa9b29b82641eb8ecbea3b",
+          "64fa9b2cb82641eb8ecbf0d6"
+        ],
+        "hit_at_5": true
+      },
+      {
+        "query": "安徽省网信办清理了多少条违规信息？",
+        "doc_id": "64fa9b28b82641eb8ecbe5f9",
+        "reference_answer": "4万余条",
+        "answer_preview": "根据提供的参考文档，安徽省网信办在2023年7月28日通报整治网络\"自媒体\"乱象情况时，共清理违规信息4万余条。",
+        "answer_accuracy": 1.0,
+        "faithfulness": 0.5,
+        "latency_ms": 4761.6,
+        "retrieved_ids": [
+          "64fa9b28b82641eb8ecbe5f9",
+          "64fa9b2cb82641eb8ecbeee1",
+          "64fa9b2eb82641eb8ecbfb5a"
+        ],
+        "hit_at_5": true
+      },
+      {
+        "query": "火灾导致了多少人死亡？",
+        "doc_id": "64fa9b2fb82641eb8ecc009d",
+        "reference_answer": "至少34人",
+        "answer_preview": "根据提供的参考文档，火灾导致了34人死亡。具体来源是阿尔及利亚内政部24日晚发表的声明。此外，贝贾亚省已有23人死亡、197人受伤的情况也得到了报道。[文档3]中的信息显示，夏威夷毛伊岛大火自8月8日",
+        "answer_accuracy": 0.0,
+        "faithfulness": 1.0,
+        "latency_ms": 5504.4,
+        "retrieved_ids": [
+          "64fa9b2fb82641eb8ecc0119",
+          "64fa9b31b82641eb8ecc068d",
+          "64fa9b31b82641eb8ecc071d",
+          "64fa9b2fb82641eb8ecbfe93",
+          "64fa9b2db82641eb8ecbf633"
+        ],
+        "hit_at_5": false
+      },
+      {
+        "query": "川岛秀一反对日本政府将核污染水排入大海的原因是什么？",
+        "doc_id": "64fa9b30b82641eb8ecc02e3",
+        "reference_answer": "使福岛渔业的恢复努力化为泡影",
+        "answer_preview": "根据参考文档的内容，川岛秀一是日本民俗学家，长期关注日本渔民的生活。他反对日本政府将核污染水排入大海的原因主要有两个：\n\n1. **渔业的未来不确定性**：他认为如果没有一个人同意核污染水排海，只是有",
+        "answer_accuracy": 0.0,
+        "faithfulness": 0.0,
+        "latency_ms": 5499.1,
+        "retrieved_ids": [
+          "64fa9b30b82641eb8ecc02e3",
+          "64fa9b2cb82641eb8ecbf2e0",
+          "64fa9b30b82641eb8ecc03bc",
+          "64fa9b2cb82641eb8ecbf2d0"
+        ],
+        "hit_at_5": true
+      },
+      {
+        "query": "马斯克提议的拳击比赛计划将在哪个社交平台直播？",
+        "doc_id": "64fa9b32b82641eb8ecc098f",
+        "reference_answer": "X（原推特）",
+        "answer_preview": "根据提供的参考文档，马斯克提议的拳击比赛计划将在社交平台\"X\"上直播。具体来源是文档1中的第0段。",
+        "answer_accuracy": 0.0,
+        "faithfulness": 0.5,
+        "latency_ms": 3701.6,
+        "retrieved_ids": [
+          "64fa9b32b82641eb8ecc09d0",
+          "64fa9b32b82641eb8ecc098f",
+          "64fa9b30b82641eb8ecc02c9",
+          "64fa9b32b82641eb8ecc09cb"
+        ],
+        "hit_at_5": true
+      },
+      {
+        "query": "浙江省实施省级统一命题的学科有哪些？",
+        "doc_id": "64fa9b2eb82641eb8ecbfb09",
+        "reference_answer": "语文、数学、英语、科学、社会",
+        "answer_preview": "根据《浙江省教育厅关于实施初中学业水平考试全省统一命题的通知(征求意见稿)》的内容，从2024年起，语文、数学、英语、科学、社会等5门学科将由省级统一命题。[文档1]",
+        "answer_accuracy": 1.0,
+        "faithfulness": 0.5,
+        "latency_ms": 5323.8,
+        "retrieved_ids": [
+          "64fa9b2eb82641eb8ecbfb09",
+          "64fa9b2eb82641eb8ecbfb36",
+          "64fa9b2db82641eb8ecbf84f",
+          "64fa9b2eb82641eb8ecbfc21"
+        ],
+        "hit_at_5": true
+      },
+      {
+        "query": "2023年中国寻根之旅夏令营在哪里举行？",
+        "doc_id": "64fa9b27b82641eb8ecbe47d",
+        "reference_answer": "三亚",
+        "answer_preview": "2023年中国寻根之旅夏令营在北京朝阳区开营。",
+        "answer_accuracy": 0.0,
+        "faithfulness": 0.75,
+        "latency_ms": 4397.7,
+        "retrieved_ids": [
+          "64fa9b2bb82641eb8ecbec8d",
+          "64fa9b27b82641eb8ecbe519",
+          "64fa9b2bb82641eb8ecbed2b",
+          "64fa9b27b82641eb8ecbe47d",
+          "64fa9b27b82641eb8ecbe518"
+        ],
+        "hit_at_5": true
+      },
+      {
+        "query": "允许哪些货物整报分送、单车进出区？",
+        "doc_id": "64fa9b2eb82641eb8ecbfc56",
+        "reference_answer": "特定类型货物",
+        "answer_preview": "根据参考文档的内容，允许特定类型货物整报分送、单车进出区的改革举措包括优化境外退运货物监管。具体措施是降低现场调查和书面调查的比例。因此，允许整报分送、单车进出区的货物类型为境外退运货物。[文档3]",
+        "answer_accuracy": 1.0,
+        "faithfulness": 1.0,
+        "latency_ms": 5406.4,
+        "retrieved_ids": [
+          "64fa9b2eb82641eb8ecbfc56",
+          "64fa9b2cb82641eb8ecbefe5",
+          "64fa9b2eb82641eb8ecbfb2f",
+          "64fa9b31b82641eb8ecc056a"
+        ],
+        "hit_at_5": true
+      },
+      {
+        "query": "截至2023年8月18日，中国载人航天工程已有多少项空间应用成果？",
+        "doc_id": "64fa9b2db82641eb8ecbf4b5",
+        "reference_answer": "4000余项",
+        "answer_preview": "截至2023年8月18日，中国载人航天工程已有4000余项空间应用成果。",
+        "answer_accuracy": 1.0,
+        "faithfulness": 1.0,
+        "latency_ms": 4699.3,
+        "retrieved_ids": [
+          "64fa9b2db82641eb8ecbf4b5",
+          "64fa9b2db82641eb8ecbf4aa",
+          "64fa9b2db82641eb8ecbf4bd"
+        ],
+        "hit_at_5": true
+      },
+      {
+        "query": "河北省运动员在全国A类、B类比赛中共获得了多少枚全运会项目奖牌？",
+        "doc_id": "64fa9b27b82641eb8ecbe275",
+        "reference_answer": "94枚",
+        "answer_preview": "河北省运动员在全国A类、B类比赛中获得的全运会项目奖牌总数为94枚。具体数据如下：\n\n- 2023年上半年，共获得94枚全运会项目金牌，其中28枚金牌；\n- 其中夏季项目上，田径女子10000米、女子",
+        "answer_accuracy": 1.0,
+        "faithfulness": 0.6,
+        "latency_ms": 6295.2,
+        "retrieved_ids": [
+          "64fa9b27b82641eb8ecbe275",
+          "64fa9b27b82641eb8ecbe25b",
+          "64fa9b2cb82641eb8ecbeeb0",
+          "64fa9b2cb82641eb8ecbeec0"
+        ],
+        "hit_at_5": true
+      },
+      {
+        "query": "中国女足战胜了哪个队伍？",
+        "doc_id": "64fa9b27b82641eb8ecbe279",
+        "reference_answer": "海地队",
+        "answer_preview": "中国女足在2023年7月28日的比赛中以1:0战胜了海地队。",
+        "answer_accuracy": 1.0,
+        "faithfulness": 0.5,
+        "latency_ms": 4419.8,
+        "retrieved_ids": [
+          "64fa9b27b82641eb8ecbe279",
+          "64fa9b2db82641eb8ecbf791",
+          "64fa9b2eb82641eb8ecbfdc0",
+          "64fa9b2cb82641eb8ecbeec8",
+          "64fa9b28b82641eb8ecbe7b0"
+        ],
+        "hit_at_5": true
+      },
+      {
+        "query": "哪所学校是台北的？",
+        "doc_id": "64fa9b27b82641eb8ecbe53a",
+        "reference_answer": "台北私立静心中学",
+        "answer_preview": "根据提供的参考文档，台北私立静心中学的学生参加了第五届海峡两岸中华传统文化学生文艺营。",
+        "answer_accuracy": 1.0,
+        "faithfulness": 0.5,
+        "latency_ms": 3429.0,
+        "retrieved_ids": [
+          "64fa9b2eb82641eb8ecbfb36",
+          "64fa9b27b82641eb8ecbe53a",
+          "64fa9b27b82641eb8ecbe2a1",
+          "64fa9b2bb82641eb8ecbecde",
+          "64fa9b2db82641eb8ecbf8cf"
+        ],
+        "hit_at_5": true
+      }
+    ]
+  },
+  "adaptive_hyde": {
+    "mode": "adaptive_hyde",
+    "mrr_at_5": 0.5477,
+    "recall_at_5": 0.66,
+    "avg_faithfulness": 0.627,
+    "avg_answer_accuracy": 0.46,
+    "avg_latency_ms": 4987.8,
+    "num_samples": 200,
+    "hyde_trigger_rate": 0.99,
+    "details": [
+      {
+        "query": "谁在武汉东湖绿道入口附近突然晕倒？",
+        "doc_id": "64fa9b2fb82641eb8ecbff5c",
+        "reference_answer": "赵荀的儿子",
+        "answer_preview": "根据提供的参考文档，2023年8月16日晚上11时，中国内地知名男演员赵荀的儿子在武汉东湖绿道入口附近突然晕倒。",
+        "answer_accuracy": 1.0,
+        "faithfulness": 0.5,
+        "latency_ms": 4628.2,
+        "retrieved_ids": [
+          "64fa9b2fb82641eb8ecbff5c",
+          "64fa9b2cb82641eb8ecbeebe",
+          "64fa9b2fb82641eb8ecc0036",
+          "64fa9b2db82641eb8ecbf6bf"
+        ],
+        "hit_at_5": true,
+        "route": "hyde",
+        "route_reason": "low_confidence"
+      },
+      {
+        "query": "金属纳米团簇的新光波导行为可以在哪些领域广泛应用？",
+        "doc_id": "64fa9b28b82641eb8ecbe66a",
+        "reference_answer": "光电调制器、光子耦合器、光子电路等领域",
+        "answer_preview": "根据安徽大学先进材料原子工程研究中心在金属纳米团簇中发现的新的光波导行为，这一发现具有重要的应用价值。具体来说：\n\n1. **光电集成和光子集成**：光波导是实现光电集成和光子集成的关键技术，其广泛应",
+        "answer_accuracy": 1.0,
+        "faithfulness": 0.5,
+        "latency_ms": 6552.5,
+        "retrieved_ids": [
+          "64fa9b28b82641eb8ecbe66a",
+          "64fa9b2cb82641eb8ecbf00a",
+          "64fa9b28b82641eb8ecbe7a0",
+          "64fa9b32b82641eb8ecc0eec",
+          "64fa9b32b82641eb8ecc09b1"
+        ],
+        "hit_at_5": true,
+        "route": "hyde",
+        "route_reason": "low_confidence"
+      },
+      {
+        "query": "产品质量监督抽检是什么？",
+        "doc_id": "64fa9b27b82641eb8ecbe156",
+        "reference_answer": "对产品质量进行抽样检测和监督",
+        "answer_preview": "产品质量监督抽检是通过抽取样品进行检验，以检查食品、药品等产品是否符合国家或地方的标准。根据提供的参考文档，可以得知以下信息：\n\n1. 2023年上半年全国市场监管部门完成食品安全监督抽检292,17",
+        "answer_accuracy": 0.0,
+        "faithfulness": 0.5,
+        "latency_ms": 5212.9,
+        "retrieved_ids": [
+          "64fa9b31b82641eb8ecc0694",
+          "64fa9b2eb82641eb8ecbfb8e",
+          "64fa9b27b82641eb8ecbe156",
+          "64fa9b31b82641eb8ecc0748",
+          "64fa9b2eb82641eb8ecbfc1d"
+        ],
+        "hit_at_5": true,
+        "route": "hyde",
+        "route_reason": "low_confidence"
+      },
+      {
+        "query": "川岛秀一提到了什么历史经历？",
+        "doc_id": "64fa9b30b82641eb8ecc02e3",
+        "reference_answer": "鱼类被污染的经历",
+        "answer_preview": "根据参考文档的内容，川岛秀一是日本民俗学家，他提到的历史经历包括：\n\n1. **渔业恢复的不懈努力**：川岛认为渔民们坚持不懈的努力才使得当地渔业从核事故的巨大打击下一点点恢复起来。[文档1]\n\n2.",
+        "answer_accuracy": 1.0,
+        "faithfulness": 1.0,
+        "latency_ms": 6459.5,
+        "retrieved_ids": [
+          "64fa9b30b82641eb8ecc02e3",
+          "64fa9b30b82641eb8ecc02a9",
+          "64fa9b2fb82641eb8ecc0183",
+          "64fa9b2eb82641eb8ecbfd25"
+        ],
+        "hit_at_5": true,
+        "route": "hyde",
+        "route_reason": "low_confidence"
+      },
+      {
+        "query": "有多少支代表团参加了开幕式？",
+        "doc_id": "64fa9b2cb82641eb8ecbeeb0",
+        "reference_answer": "18支",
+        "answer_preview": "根据参考文档的内容，2023年7月17日至19日的联合国可持续发展高级别政治论坛部长级会议在纽约联合国总部举行。重要人物如第77届联合国大会主席克勒希、联合国秘书长古特雷斯、联合国经济及社会理事会主席",
+        "answer_accuracy": 0.0,
+        "faithfulness": 0.0,
+        "latency_ms": 4229.5,
+        "retrieved_ids": [
+          "64fa9b32b82641eb8ecc088c",
+          "64fa9b2db82641eb8ecbf4c9",
+          "64fa9b2cb82641eb8ecbf31d",
+          "64fa9b30b82641eb8ecc0411",
+          "64fa9b2db82641eb8ecbf5c5"
+        ],
+        "hit_at_5": false,
+        "route": "hyde",
+        "route_reason": "low_confidence"
+      },
+      {
+        "query": "会谈的主要内容是什么？",
+        "doc_id": "64fa9b2bb82641eb8ecbed1d",
+        "reference_answer": "合力打击缅境内的电诈网赌等犯罪活动",
+        "answer_preview": "根据提供的参考文档，会谈的主要内容包括：\n\n1. 习近平主席在成都大运会开幕式上强调了中国秉持的简约、安全、精彩的办赛理念，并表示将确保成都大运会顺利举办。他还提到，世界大学生运动会是青春的盛会、团结",
+        "answer_accuracy": 0.0,
+        "faithfulness": 1.0,
+        "latency_ms": 7972.5,
+        "retrieved_ids": [
+          "64fa9b32b82641eb8ecc088c",
+          "64fa9b2db82641eb8ecbf4c9",
+          "64fa9b2db82641eb8ecbf37c",
+          "64fa9b32b82641eb8ecc08e8",
+          "64fa9b2db82641eb8ecbf5c5"
+        ],
+        "hit_at_5": false,
+        "route": "hyde",
+        "route_reason": "low_confidence"
+      },
+      {
+        "query": "问天WA7780 G3 AI大模型训练服务器预留了什么设计？",
+        "doc_id": "64fa9b2bb82641eb8ecbec56",
+        "reference_answer": "液冷冷板设计",
+        "answer_preview": "根据提供的参考文档，联想集团副总裁、ISG中国服务器事业部总经理陈振宽表示，问天WA7780 G3 AI大模型训练服务器在设计中采用了三重独立风道设计。[文档1]",
+        "answer_accuracy": 0.0,
+        "faithfulness": 0.5,
+        "latency_ms": 4948.8,
+        "retrieved_ids": [
+          "64fa9b2bb82641eb8ecbec56",
+          "64fa9b30b82641eb8ecc02b6",
+          "64fa9b2bb82641eb8ecbebbe",
+          "64fa9b2bb82641eb8ecbec17"
+        ],
+        "hit_at_5": true,
+        "route": "hyde",
+        "route_reason": "low_confidence"
+      },
+      {
+        "query": "城中村改造可以采取哪些方式？",
+        "doc_id": "64fa9b28b82641eb8ecbe7cb",
+        "reference_answer": "拆除新建、整治提升、拆整结合",
+        "answer_preview": "根据提供的参考文档，城中村改造可以采取以下几种方式：\n\n1. **拆除新建**：通过彻底拆除旧房并重建新房来改造城市区域。\n2. **整治提升**：对现有建筑进行整体翻新和改善，使其达到现代化标准。\n",
+        "answer_accuracy": 0.0,
+        "faithfulness": 1.0,
+        "latency_ms": 5363.0,
+        "retrieved_ids": [
+          "64fa9b28b82641eb8ecbe7cb",
+          "64fa9b2eb82641eb8ecbfb3a",
+          "64fa9b2cb82641eb8ecbef9e",
+          "64fa9b2eb82641eb8ecbfb8a"
+        ],
+        "hit_at_5": true,
+        "route": "hyde",
+        "route_reason": "low_confidence"
+      },
+      {
+        "query": "试飞的无人战斗机是什么型号？",
+        "doc_id": "64fa9b30b82641eb8ecc02b6",
+        "reference_answer": "XQ-58A“女武神”",
+        "answer_preview": "根据提供的参考文档，无人战斗机是XQ-58A\"女武神\"。具体信息来自文档1中的第2段和第3段。",
+        "answer_accuracy": 0.0,
+        "faithfulness": 0.5,
+        "latency_ms": 5258.4,
+        "retrieved_ids": [
+          "64fa9b29b82641eb8ecbea3b",
+          "64fa9b2cb82641eb8ecbf0f1",
+          "64fa9b30b82641eb8ecc02b6",
+          "64fa9b2cb82641eb8ecbf2d9"
+        ],
+        "hit_at_5": true,
+        "route": "hyde",
+        "route_reason": "low_confidence"
+      },
+      {
+        "query": "安徽省网信办清理了多少条违规信息？",
+        "doc_id": "64fa9b28b82641eb8ecbe5f9",
+        "reference_answer": "4万余条",
+        "answer_preview": "根据提供的参考文档，安徽省网信办在2023年7月28日清理了4万余条违规信息。具体来源是文档1中的第0段和第2段内容。",
+        "answer_accuracy": 1.0,
+        "faithfulness": 1.0,
+        "latency_ms": 5034.8,
+        "retrieved_ids": [
+          "64fa9b28b82641eb8ecbe5f9",
+          "64fa9b2cb82641eb8ecbeee1",
+          "64fa9b2eb82641eb8ecbfb5a"
+        ],
+        "hit_at_5": true,
+        "route": "hyde",
+        "route_reason": "low_confidence"
+      },
+      {
+        "query": "火灾导致了多少人死亡？",
+        "doc_id": "64fa9b2fb82641eb8ecc009d",
+        "reference_answer": "至少34人",
+        "answer_preview": "根据参考文档的内容，火灾导致了1名消防员和1名乡镇干部不幸遇难。具体来源为文档1的第2段。",
+        "answer_accuracy": 0.0,
+        "faithfulness": 0.5,
+        "latency_ms": 5244.1,
+        "retrieved_ids": [
+          "64fa9b30b82641eb8ecc0420",
+          "64fa9b31b82641eb8ecc069d",
+          "64fa9b31b82641eb8ecc072f",
+          "64fa9b31b82641eb8ecc071b",
+          "64fa9b31b82641eb8ecc071d"
+        ],
+        "hit_at_5": false,
+        "route": "hyde",
+        "route_reason": "low_confidence"
+      },
+      {
+        "query": "川岛秀一反对日本政府将核污染水排入大海的原因是什么？",
+        "doc_id": "64fa9b30b82641eb8ecc02e3",
+        "reference_answer": "使福岛渔业的恢复努力化为泡影",
+        "answer_preview": "根据参考文档的内容，川岛秀一是日本民俗学家，长期关注日本渔民的生活。他反对日本政府将核污染水排入大海的原因主要有两个：\n\n1. **渔业的未来不确定性**：他认为如果没有一个人同意核污染水排海，只是有",
+        "answer_accuracy": 0.0,
+        "faithfulness": 0.0,
+        "latency_ms": 6648.2,
+        "retrieved_ids": [
+          "64fa9b30b82641eb8ecc02e3",
+          "64fa9b32b82641eb8ecc09ad",
+          "64fa9b2cb82641eb8ecbf2e0",
+          "64fa9b30b82641eb8ecc03bc",
+          "64fa9b30b82641eb8ecc0306"
+        ],
+        "hit_at_5": true,
+        "route": "hyde",
+        "route_reason": "low_confidence"
+      },
+      {
+        "query": "马斯克提议的拳击比赛计划将在哪个社交平台直播？",
+        "doc_id": "64fa9b32b82641eb8ecc098f",
+        "reference_answer": "X（原推特）",
+        "answer_preview": "根据提供的参考文档，马斯克提议的拳击比赛计划将在社交平台X（原推特）上直播。",
+        "answer_accuracy": 1.0,
+        "faithfulness": 1.0,
+        "latency_ms": 5024.5,
+        "retrieved_ids": [
+          "64fa9b32b82641eb8ecc09d0",
+          "64fa9b32b82641eb8ecc098f",
+          "64fa9b30b82641eb8ecc02c9",
+          "64fa9b32b82641eb8ecc09cb"
+        ],
+        "hit_at_5": true,
+        "route": "hyde",
+        "route_reason": "low_confidence"
+      },
+      {
+        "query": "浙江省实施省级统一命题的学科有哪些？",
+        "doc_id": "64fa9b2eb82641eb8ecbfb09",
+        "reference_answer": "语文、数学、英语、科学、社会",
+        "answer_preview": "根据《浙江省教育厅关于实施初中学业水平考试全省统一命题的通知(征求意见稿)》，从2024年起，语文、数学、英语、科学、社会等5门学科将由省级统一命题。[文档1]",
+        "answer_accuracy": 1.0,
+        "faithfulness": 0.5,
+        "latency_ms": 4057.5,
+        "retrieved_ids": [
+          "64fa9b2eb82641eb8ecbfb09",
+          "64fa9b2eb82641eb8ecbfb36",
+          "64fa9b2eb82641eb8ecbfb38",
+          "64fa9b2eb82641eb8ecbfb14",
+          "64fa9b28b82641eb8ecbe961"
+        ],
+        "hit_at_5": true,
+        "route": "hyde",
+        "route_reason": "low_confidence"
+      },
+      {
+        "query": "2023年中国寻根之旅夏令营在哪里举行？",
+        "doc_id": "64fa9b27b82641eb8ecbe47d",
+        "reference_answer": "三亚",
+        "answer_preview": "2023年中国寻根之旅夏令营在北京朝阳区开营。具体信息如下：\n\n- 日期：2023年7月21日\n- 地点：北京朝阳区\n\n[文档1]",
+        "answer_accuracy": 0.0,
+        "faithfulness": 1.0,
+        "latency_ms": 5330.0,
+        "retrieved_ids": [
+          "64fa9b27b82641eb8ecbe47d",
+          "64fa9b27b82641eb8ecbe519",
+          "64fa9b2bb82641eb8ecbec8d",
+          "64fa9b27b82641eb8ecbe3ad",
+          "64fa9b2eb82641eb8ecbfe52"
+        ],
+        "hit_at_5": true,
+        "route": "hyde",
+        "route_reason": "low_confidence"
+      },
+      {
+        "query": "允许哪些货物整报分送、单车进出区？",
+        "doc_id": "64fa9b2eb82641eb8ecbfc56",
+        "reference_answer": "特定类型货物",
+        "answer_preview": "根据参考文档的内容，允许特定类型货物整报分送、单车进出区的改革举措包括优化境外退运货物监管。具体措施是降低现场调查和书面调查的比例。因此，允许整报分送、单车进出区的货物类型为境外退运货物。[文档3]",
+        "answer_accuracy": 1.0,
+        "faithfulness": 1.0,
+        "latency_ms": 5373.7,
+        "retrieved_ids": [
+          "64fa9b2eb82641eb8ecbfc56",
+          "64fa9b2cb82641eb8ecbefe5",
+          "64fa9b2cb82641eb8ecbef8c",
+          "64fa9b31b82641eb8ecc056a",
+          "64fa9b32b82641eb8ecc0d5c"
+        ],
+        "hit_at_5": true,
+        "route": "hyde",
+        "route_reason": "low_confidence"
+      },
+      {
+        "query": "截至2023年8月18日，中国载人航天工程已有多少项空间应用成果？",
+        "doc_id": "64fa9b2db82641eb8ecbf4b5",
+        "reference_answer": "4000余项",
+        "answer_preview": "截至2023年8月18日，中国载人航天工程已有4000余项空间应用成果。",
+        "answer_accuracy": 1.0,
+        "faithfulness": 1.0,
+        "latency_ms": 5190.9,
+        "retrieved_ids": [
+          "64fa9b2db82641eb8ecbf4b5",
+          "64fa9b2db82641eb8ecbf4aa",
+          "64fa9b2db82641eb8ecbf4bd"
+        ],
+        "hit_at_5": true,
+        "route": "hyde",
+        "route_reason": "low_confidence"
+      },
+      {
+        "query": "河北省运动员在全国A类、B类比赛中共获得了多少枚全运会项目奖牌？",
+        "doc_id": "64fa9b27b82641eb8ecbe275",
+        "reference_answer": "94枚",
+        "answer_preview": "河北省运动员在全国A类、B类比赛中共获得全运会项目奖牌94枚。[文档2]",
+        "answer_accuracy": 1.0,
+        "faithfulness": 0.5,
+        "latency_ms": 4214.0,
+        "retrieved_ids": [
+          "64fa9b27b82641eb8ecbe275",
+          "64fa9b27b82641eb8ecbe25b",
+          "64fa9b27b82641eb8ecbe391"
+        ],
+        "hit_at_5": true,
+        "route": "hyde",
+        "route_reason": "low_confidence"
+      },
+      {
+        "query": "中国女足战胜了哪个队伍？",
+        "doc_id": "64fa9b27b82641eb8ecbe279",
+        "reference_answer": "海地队",
+        "answer_preview": "根据提供的参考文档，中国女足在2023年7月28日的比赛中以1:0战胜了海地队。",
+        "answer_accuracy": 1.0,
+        "faithfulness": 0.5,
+        "latency_ms": 4071.9,
+        "retrieved_ids": [
+          "64fa9b27b82641eb8ecbe279",
+          "64fa9b2eb82641eb8ecbfdc0",
+          "64fa9b2db82641eb8ecbf791",
+          "64fa9b27b82641eb8ecbe25b"
+        ],
+        "hit_at_5": true,
+        "route": "hyde",
+        "route_reason": "low_confidence"
+      },
+      {
+        "query": "哪所学校是台北的？",
+        "doc_id": "64fa9b27b82641eb8ecbe53a",
+        "reference_answer": "台北私立静心中学",
+        "answer_preview": "根据提供的参考文档，无法找到关于\"台北学校\"的信息。",
+        "answer_accuracy": 0.0,
+        "faithfulness": 0.0,
+        "latency_ms": 4878.4,
+        "retrieved_ids": [
+          "64fa9b2eb82641eb8ecbfc50",
+          "64fa9b2db82641eb8ecbf387",
+          "64fa9b2db82641eb8ecbf993",
+          "64fa9b2bb82641eb8ecbec4e"
+        ],
+        "hit_at_5": false,
+        "route": "hyde",
+        "route_reason": "low_confidence"
+      }
+    ]
+  },
+  "summary": {
+    "hyde_vs_naive_mrr_gain_pct": -18.0,
+    "adaptive_vs_naive_mrr_gain_pct": -14.8,
+    "adaptive_vs_hyde_mrr_gain_pct": 3.9,
+    "adaptive_hyde_trigger_rate": 0.99,
+    "adaptive_latency_saved_vs_hyde_ms": -148.4
+  },
+  "_meta": {
+    "completed_modes": [
+      "naive",
+      "hyde",
+      "adaptive_hyde"
+    ],
+    "pending_modes": [],
+    "all_complete": true
+  }
+}

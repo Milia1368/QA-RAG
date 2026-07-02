@@ -1,0 +1,537 @@
+{
+  "naive": {
+    "mode": "naive",
+    "mrr_at_5": 0.8,
+    "recall_at_5": 1.0,
+    "avg_faithfulness": 0.6,
+    "avg_answer_accuracy": 0.6,
+    "avg_latency_ms": 2724.2,
+    "num_samples": 10,
+    "hyde_trigger_rate": null,
+    "details": [
+      {
+        "query": "哪个城市发放了体育类电子消费券？",
+        "doc_id": "64fa9b27b82641eb8ecbe14d",
+        "reference_answer": "陕西西安市",
+        "answer_preview": "根据提供的参考文档，陕西西安市在2023年7月28日发放了500万元的体育类电子消费券。",
+        "answer_accuracy": 1.0,
+        "faithfulness": 0.5,
+        "latency_ms": 2758.9,
+        "retrieved_ids": [
+          "64fa9b27b82641eb8ecbe14d",
+          "64fa9b2eb82641eb8ecbfe0a",
+          "64fa9b2bb82641eb8ecbebed",
+          "64fa9b2eb82641eb8ecbfc86"
+        ],
+        "hit_at_5": true
+      },
+      {
+        "query": "体育类电子消费券的总金额是多少？",
+        "doc_id": "64fa9b27b82641eb8ecbe14d",
+        "reference_answer": "500万元",
+        "answer_preview": "根据参考文档的内容，陕西西安市在2023年7月28日发放了价值500万元的体育类电子消费券。因此，体育类电子消费券的总金额是500万元。",
+        "answer_accuracy": 1.0,
+        "faithfulness": 0.5,
+        "latency_ms": 2444.6,
+        "retrieved_ids": [
+          "64fa9b27b82641eb8ecbe14d",
+          "64fa9b2bb82641eb8ecbebed",
+          "64fa9b32b82641eb8ecc0a3d",
+          "64fa9b2eb82641eb8ecbfe0a"
+        ],
+        "hit_at_5": true
+      },
+      {
+        "query": "市民可以在多少家体育场馆使用这些消费券？",
+        "doc_id": "64fa9b27b82641eb8ecbe14d",
+        "reference_answer": "173家",
+        "answer_preview": "根据参考文档的内容，陕西西安市在2023年7月28日发放了价值500万元的体育类电子消费券。市民可以在全市173家体育场馆使用这些消费券。[文档1]",
+        "answer_accuracy": 1.0,
+        "faithfulness": 0.5,
+        "latency_ms": 2645.5,
+        "retrieved_ids": [
+          "64fa9b27b82641eb8ecbe14d",
+          "64fa9b2eb82641eb8ecbfe0a",
+          "64fa9b2bb82641eb8ecbebed"
+        ],
+        "hit_at_5": true
+      },
+      {
+        "query": "NP137在哪种试验中显示出了抗肿瘤响应？",
+        "doc_id": "64fa9b27b82641eb8ecbe187",
+        "reference_answer": "人体试验",
+        "answer_preview": "在人体1期临床试验中，一种阻断netrin-1的单克隆抗体NP137被证明是安全的，并观察到抗肿瘤响应。具体数据如下：\n\n- 试验人数：14名晚期子宫内膜癌患者\n- 治疗效果：9名患者观察到了抗肿瘤响",
+        "answer_accuracy": 0.0,
+        "faithfulness": 1.0,
+        "latency_ms": 3307.1,
+        "retrieved_ids": [
+          "64fa9b27b82641eb8ecbe187",
+          "64fa9b32b82641eb8ecc08f9"
+        ],
+        "hit_at_5": true
+      },
+      {
+        "query": "在人体试验中，哪种药物对晚期子宫内膜癌患者显示出了抗肿瘤响应？",
+        "doc_id": "64fa9b27b82641eb8ecbe187",
+        "reference_answer": "NP137",
+        "answer_preview": "在人体1期临床试验中，阻断netrin-1的单克隆抗体NP137对晚期子宫内膜癌患者显示出了抗肿瘤响应。具体数据如下：\n\n1. 在9名患者中观察到了抗肿瘤响应；\n2. 8名患者的病情稳定下来；\n3. ",
+        "answer_accuracy": 1.0,
+        "faithfulness": 1.0,
+        "latency_ms": 3572.2,
+        "retrieved_ids": [
+          "64fa9b32b82641eb8ecc08f9",
+          "64fa9b27b82641eb8ecbe187",
+          "64fa9b27b82641eb8ecbe1fa"
+        ],
+        "hit_at_5": true
+      },
+      {
+        "query": "在人体试验中，NP137对多少名晚期子宫内膜癌患者显示出了抗肿瘤响应？",
+        "doc_id": "64fa9b27b82641eb8ecbe187",
+        "reference_answer": "9名",
+        "answer_preview": "根据参考文档的内容，NP137在一项人体1期临床试验中对9名晚期子宫内膜癌患者显示出了抗肿瘤响应。",
+        "answer_accuracy": 1.0,
+        "faithfulness": 0.5,
+        "latency_ms": 2042.5,
+        "retrieved_ids": [
+          "64fa9b32b82641eb8ecc08f9",
+          "64fa9b27b82641eb8ecbe187"
+        ],
+        "hit_at_5": true
+      },
+      {
+        "query": "在人体试验中，NP137对晚期子宫内膜癌患者显示出了什么响应？",
+        "doc_id": "64fa9b27b82641eb8ecbe187",
+        "reference_answer": "抗肿瘤响应",
+        "answer_preview": "在人体试验中，NP137对晚期子宫内膜癌患者显示出了抗肿瘤响应。具体表现为9名患者观察到了抗肿瘤反应，8名患者的病情稳定下来，1名患者的肝转移灶缩小超过50%。[文档2]",
+        "answer_accuracy": 1.0,
+        "faithfulness": 1.0,
+        "latency_ms": 2218.6,
+        "retrieved_ids": [
+          "64fa9b32b82641eb8ecc08f9",
+          "64fa9b27b82641eb8ecbe187"
+        ],
+        "hit_at_5": true
+      },
+      {
+        "query": "什么是'启明行动'？",
+        "doc_id": "64fa9b27b82641eb8ecbe14c",
+        "reference_answer": "无法推断",
+        "answer_preview": "\"启明行动\"是国家卫生健康委在全国范围内开展的防控儿童青少年近视健康促进活动，发布《防控儿童青少年近视核心知识十条》。该行动倡导和推动家庭及全社会共同行动起来，营造爱眼护眼的视觉友好环境，并通过各种形",
+        "answer_accuracy": 0.0,
+        "faithfulness": 1.0,
+        "latency_ms": 3015.4,
+        "retrieved_ids": [
+          "64fa9b27b82641eb8ecbe14c",
+          "64fa9b31b82641eb8ecc05cd",
+          "64fa9b2fb82641eb8ecc011d",
+          "64fa9b2db82641eb8ecbf710",
+          "64fa9b2db82641eb8ecbf5ef"
+        ],
+        "hit_at_5": true
+      },
+      {
+        "query": "启明行动是为了解决什么问题？",
+        "doc_id": "64fa9b27b82641eb8ecbe14c",
+        "reference_answer": "儿童青少年的近视问题",
+        "answer_preview": "启明行动是为了防控近视的问题。",
+        "answer_accuracy": 0.0,
+        "faithfulness": 0.0,
+        "latency_ms": 2292.5,
+        "retrieved_ids": [
+          "64fa9b27b82641eb8ecbe14c",
+          "64fa9b2fb82641eb8ecc011d",
+          "64fa9b2cb82641eb8ecbf189",
+          "64fa9b31b82641eb8ecc06df",
+          "64fa9b30b82641eb8ecc0306"
+        ],
+        "hit_at_5": true
+      },
+      {
+        "query": "启明行动发布了什么文件？",
+        "doc_id": "64fa9b27b82641eb8ecbe14c",
+        "reference_answer": "《防控儿童青少年近视核心知识十条》",
+        "answer_preview": "根据提供的参考文档，启明行动发布的是关于防控近视的文件。具体信息如下：\n\n2023年7月28日，作者白剑峰在人民日报上发布了\"防控近视'启明行动'\"的通知。该通知提到，启明行动将开展。\n\n没有匹配资料",
+        "answer_accuracy": 0.0,
+        "faithfulness": 0.0,
+        "latency_ms": 2944.7,
+        "retrieved_ids": [
+          "64fa9b28b82641eb8ecbe7f4",
+          "64fa9b27b82641eb8ecbe14c",
+          "64fa9b2fb82641eb8ecc011d",
+          "64fa9b29b82641eb8ecbea3b"
+        ],
+        "hit_at_5": true
+      }
+    ]
+  },
+  "hyde": {
+    "mode": "hyde",
+    "mrr_at_5": 0.5,
+    "recall_at_5": 0.7,
+    "avg_faithfulness": 0.7,
+    "avg_answer_accuracy": 0.6,
+    "avg_latency_ms": 4181.2,
+    "num_samples": 10,
+    "hyde_trigger_rate": null,
+    "details": [
+      {
+        "query": "哪个城市发放了体育类电子消费券？",
+        "doc_id": "64fa9b27b82641eb8ecbe14d",
+        "reference_answer": "陕西西安市",
+        "answer_preview": "根据提供的参考文档，陕西西安市在2023年7月28日发放了500万元的体育类电子消费券。",
+        "answer_accuracy": 1.0,
+        "faithfulness": 0.5,
+        "latency_ms": 3595.3,
+        "retrieved_ids": [
+          "64fa9b27b82641eb8ecbe14d",
+          "64fa9b2eb82641eb8ecbfe0a",
+          "64fa9b2db82641eb8ecbf372",
+          "64fa9b2bb82641eb8ecbed4d",
+          "64fa9b28b82641eb8ecbe6c9"
+        ],
+        "hit_at_5": true
+      },
+      {
+        "query": "体育类电子消费券的总金额是多少？",
+        "doc_id": "64fa9b27b82641eb8ecbe14d",
+        "reference_answer": "500万元",
+        "answer_preview": "根据参考文档的内容，陕西西安市在2023年7月28日发放了价值500万元的体育类电子消费券。因此，体育类电子消费券的总金额是500万元。",
+        "answer_accuracy": 1.0,
+        "faithfulness": 0.5,
+        "latency_ms": 3190.5,
+        "retrieved_ids": [
+          "64fa9b27b82641eb8ecbe14d",
+          "64fa9b2bb82641eb8ecbebed",
+          "64fa9b32b82641eb8ecc0a3d",
+          "64fa9b2eb82641eb8ecbfe0a",
+          "64fa9b2bb82641eb8ecbebb2"
+        ],
+        "hit_at_5": true
+      },
+      {
+        "query": "市民可以在多少家体育场馆使用这些消费券？",
+        "doc_id": "64fa9b27b82641eb8ecbe14d",
+        "reference_answer": "173家",
+        "answer_preview": "市民可以在全市173家体育场馆使用这些消费券。",
+        "answer_accuracy": 1.0,
+        "faithfulness": 0.5,
+        "latency_ms": 3218.4,
+        "retrieved_ids": [
+          "64fa9b27b82641eb8ecbe14d",
+          "64fa9b2eb82641eb8ecbfe0a",
+          "64fa9b32b82641eb8ecc0a65",
+          "64fa9b2cb82641eb8ecbefb9",
+          "64fa9b2db82641eb8ecbf372"
+        ],
+        "hit_at_5": true
+      },
+      {
+        "query": "NP137在哪种试验中显示出了抗肿瘤响应？",
+        "doc_id": "64fa9b27b82641eb8ecbe187",
+        "reference_answer": "人体试验",
+        "answer_preview": "在人体1期临床试验中，一种阻断netrin-1的单克隆抗体NP137被证明是安全的，并观察到抗肿瘤响应。具体数据如下：\n\n1. 9名患者中有抗肿瘤响应；\n2. 8名患者的病情稳定下来；\n3. 1名患者",
+        "answer_accuracy": 0.0,
+        "faithfulness": 1.0,
+        "latency_ms": 4130.3,
+        "retrieved_ids": [
+          "64fa9b32b82641eb8ecc08f9",
+          "64fa9b27b82641eb8ecbe187"
+        ],
+        "hit_at_5": true
+      },
+      {
+        "query": "在人体试验中，哪种药物对晚期子宫内膜癌患者显示出了抗肿瘤响应？",
+        "doc_id": "64fa9b27b82641eb8ecbe187",
+        "reference_answer": "NP137",
+        "answer_preview": "在人体1期临床试验中，NP137单克隆抗体显示出抗肿瘤响应。具体来说，在9名患者中观察到了抗肿瘤反应，在8名患者的病情稳定下来，并且有1名患者的肝转移灶缩小超过50%。[文档2]",
+        "answer_accuracy": 1.0,
+        "faithfulness": 0.5,
+        "latency_ms": 4489.3,
+        "retrieved_ids": [
+          "64fa9b32b82641eb8ecc08f9",
+          "64fa9b27b82641eb8ecbe187"
+        ],
+        "hit_at_5": true
+      },
+      {
+        "query": "在人体试验中，NP137对多少名晚期子宫内膜癌患者显示出了抗肿瘤响应？",
+        "doc_id": "64fa9b27b82641eb8ecbe187",
+        "reference_answer": "9名",
+        "answer_preview": "根据提供的信息，在人体试验中，NP137对9名晚期子宫内膜癌患者显示出了抗肿瘤响应。",
+        "answer_accuracy": 1.0,
+        "faithfulness": 0.5,
+        "latency_ms": 4018.5,
+        "retrieved_ids": [
+          "64fa9b32b82641eb8ecc08f9",
+          "64fa9b27b82641eb8ecbe187",
+          "64fa9b27b82641eb8ecbe1fa"
+        ],
+        "hit_at_5": true
+      },
+      {
+        "query": "在人体试验中，NP137对晚期子宫内膜癌患者显示出了什么响应？",
+        "doc_id": "64fa9b27b82641eb8ecbe187",
+        "reference_answer": "抗肿瘤响应",
+        "answer_preview": "在人体试验中，NP137对晚期子宫内膜癌患者显示出了抗肿瘤响应。具体表现为9名患者观察到了抗肿瘤反应，8名患者的病情稳定下来，1名患者的肝转移灶缩小超过50%。[文档2]",
+        "answer_accuracy": 1.0,
+        "faithfulness": 1.0,
+        "latency_ms": 3770.7,
+        "retrieved_ids": [
+          "64fa9b32b82641eb8ecc08f9",
+          "64fa9b27b82641eb8ecbe187"
+        ],
+        "hit_at_5": true
+      },
+      {
+        "query": "什么是'启明行动'？",
+        "doc_id": "64fa9b27b82641eb8ecbe14c",
+        "reference_answer": "无法推断",
+        "answer_preview": "\"启明行动\"是国家卫生健康委在全国范围内开展的防控儿童青少年近视健康促进活动，发布《防控儿童青少年近视核心知识十条》。该行动倡导和推动家庭及全社会共同行动起来，营造爱眼护眼的视觉友好环境，并通过各种形",
+        "answer_accuracy": 0.0,
+        "faithfulness": 0.5,
+        "latency_ms": 5412.5,
+        "retrieved_ids": [
+          "64fa9b2eb82641eb8ecbfab5",
+          "64fa9b2bb82641eb8ecbebd8",
+          "64fa9b2bb82641eb8ecbec4d",
+          "64fa9b2eb82641eb8ecbfdba",
+          "64fa9b2db82641eb8ecbf68b"
+        ],
+        "hit_at_5": false
+      },
+      {
+        "query": "启明行动是为了解决什么问题？",
+        "doc_id": "64fa9b27b82641eb8ecbe14c",
+        "reference_answer": "儿童青少年的近视问题",
+        "answer_preview": "启明行动是为了解决全球性问题。具体来说，它致力于通过改善亚洲、欧洲和非洲的互联互通以及促进共同发展的“一带一路”倡议，对发展中国家产生了积极影响，并提供技术和资金支持以推动全球合作。此外，启明行动还提",
+        "answer_accuracy": 0.0,
+        "faithfulness": 1.0,
+        "latency_ms": 5216.8,
+        "retrieved_ids": [
+          "64fa9b2db82641eb8ecbf68b",
+          "64fa9b30b82641eb8ecc03f2",
+          "64fa9b30b82641eb8ecc0411",
+          "64fa9b2db82641eb8ecbf450",
+          "64fa9b32b82641eb8ecc088c"
+        ],
+        "hit_at_5": false
+      },
+      {
+        "query": "启明行动发布了什么文件？",
+        "doc_id": "64fa9b27b82641eb8ecbe14c",
+        "reference_answer": "《防控儿童青少年近视核心知识十条》",
+        "answer_preview": "根据提供的参考文档，启明行动发布的文件是《中国日报》刊文中的\"全球发展倡议、全球安全倡议和全球文明倡议\"。具体来源为文档2的第2段。",
+        "answer_accuracy": 0.0,
+        "faithfulness": 1.0,
+        "latency_ms": 4769.8,
+        "retrieved_ids": [
+          "64fa9b30b82641eb8ecc03f2",
+          "64fa9b30b82641eb8ecc0411",
+          "64fa9b2db82641eb8ecbf4c9",
+          "64fa9b2cb82641eb8ecbf2ee"
+        ],
+        "hit_at_5": false
+      }
+    ]
+  },
+  "adaptive_hyde": {
+    "mode": "adaptive_hyde",
+    "mrr_at_5": 0.47,
+    "recall_at_5": 0.7,
+    "avg_faithfulness": 0.5,
+    "avg_answer_accuracy": 0.6,
+    "avg_latency_ms": 4600.5,
+    "num_samples": 10,
+    "hyde_trigger_rate": 1.0,
+    "details": [
+      {
+        "query": "哪个城市发放了体育类电子消费券？",
+        "doc_id": "64fa9b27b82641eb8ecbe14d",
+        "reference_answer": "陕西西安市",
+        "answer_preview": "根据提供的信息，陕西西安市在2023年7月28日发放了500万元的体育类电子消费券。",
+        "answer_accuracy": 1.0,
+        "faithfulness": 0.5,
+        "latency_ms": 3901.7,
+        "retrieved_ids": [
+          "64fa9b27b82641eb8ecbe14d",
+          "64fa9b2eb82641eb8ecbfc86",
+          "64fa9b2eb82641eb8ecbfe0a",
+          "64fa9b32b82641eb8ecc0a3d",
+          "64fa9b2bb82641eb8ecbebed"
+        ],
+        "hit_at_5": true,
+        "route": "hyde",
+        "route_reason": "low_confidence"
+      },
+      {
+        "query": "体育类电子消费券的总金额是多少？",
+        "doc_id": "64fa9b27b82641eb8ecbe14d",
+        "reference_answer": "500万元",
+        "answer_preview": "根据提供的参考文档，陕西西安市在2023年7月28日发放了价值500万元的体育类电子消费券。",
+        "answer_accuracy": 1.0,
+        "faithfulness": 0.5,
+        "latency_ms": 4074.1,
+        "retrieved_ids": [
+          "64fa9b27b82641eb8ecbe14d",
+          "64fa9b2bb82641eb8ecbebed",
+          "64fa9b32b82641eb8ecc0a3d",
+          "64fa9b2bb82641eb8ecbeb75"
+        ],
+        "hit_at_5": true,
+        "route": "hyde",
+        "route_reason": "low_confidence"
+      },
+      {
+        "query": "市民可以在多少家体育场馆使用这些消费券？",
+        "doc_id": "64fa9b27b82641eb8ecbe14d",
+        "reference_answer": "173家",
+        "answer_preview": "市民可以在全市173家体育场馆使用这些消费券。",
+        "answer_accuracy": 1.0,
+        "faithfulness": 0.5,
+        "latency_ms": 4667.4,
+        "retrieved_ids": [
+          "64fa9b27b82641eb8ecbe14d",
+          "64fa9b32b82641eb8ecc0a3d",
+          "64fa9b2eb82641eb8ecbfe0a",
+          "64fa9b2bb82641eb8ecbebed",
+          "64fa9b2db82641eb8ecbf372"
+        ],
+        "hit_at_5": true,
+        "route": "hyde",
+        "route_reason": "low_confidence"
+      },
+      {
+        "query": "NP137在哪种试验中显示出了抗肿瘤响应？",
+        "doc_id": "64fa9b27b82641eb8ecbe187",
+        "reference_answer": "人体试验",
+        "answer_preview": "在人体1期临床试验中，一种阻断netrin-1的单克隆抗体NP137被证明是安全的，并观察到抗肿瘤响应。具体数据如下：\n\n- 9名患者中有抗肿瘤响应；\n- 8名患者的病情稳定下来；\n- 1名患者的肝转",
+        "answer_accuracy": 0.0,
+        "faithfulness": 1.0,
+        "latency_ms": 5562.8,
+        "retrieved_ids": [
+          "64fa9b32b82641eb8ecc08f9",
+          "64fa9b27b82641eb8ecbe187"
+        ],
+        "hit_at_5": true,
+        "route": "hyde",
+        "route_reason": "low_confidence"
+      },
+      {
+        "query": "在人体试验中，哪种药物对晚期子宫内膜癌患者显示出了抗肿瘤响应？",
+        "doc_id": "64fa9b27b82641eb8ecbe187",
+        "reference_answer": "NP137",
+        "answer_preview": "在人体1期临床试验中，NP137（一种阻断netrin-1的单克隆抗体）对晚期子宫内膜癌患者显示出了抗肿瘤响应。具体数据显示，在9名患者中观察到抗肿瘤反应；8名患者的疾病稳定下来，1名患者的肝转移灶缩",
+        "answer_accuracy": 1.0,
+        "faithfulness": 0.5,
+        "latency_ms": 5229.1,
+        "retrieved_ids": [
+          "64fa9b27b82641eb8ecbe1a5",
+          "64fa9b2fb82641eb8ecc0096",
+          "64fa9b32b82641eb8ecc08f9",
+          "64fa9b27b82641eb8ecbe22d",
+          "64fa9b27b82641eb8ecbe187"
+        ],
+        "hit_at_5": true,
+        "route": "hyde",
+        "route_reason": "low_confidence"
+      },
+      {
+        "query": "在人体试验中，NP137对多少名晚期子宫内膜癌患者显示出了抗肿瘤响应？",
+        "doc_id": "64fa9b27b82641eb8ecbe187",
+        "reference_answer": "9名",
+        "answer_preview": "根据提供的参考文档，NP137在一项人体1期临床试验中对9名晚期子宫内膜癌患者显示出了抗肿瘤响应。",
+        "answer_accuracy": 1.0,
+        "faithfulness": 0.5,
+        "latency_ms": 3905.6,
+        "retrieved_ids": [
+          "64fa9b32b82641eb8ecc08f9",
+          "64fa9b27b82641eb8ecbe187"
+        ],
+        "hit_at_5": true,
+        "route": "hyde",
+        "route_reason": "low_confidence"
+      },
+      {
+        "query": "在人体试验中，NP137对晚期子宫内膜癌患者显示出了什么响应？",
+        "doc_id": "64fa9b27b82641eb8ecbe187",
+        "reference_answer": "抗肿瘤响应",
+        "answer_preview": "在人体试验中，NP137对晚期子宫内膜癌患者显示出了抗肿瘤响应。具体表现为9名患者观察到了抗肿瘤反应，8名患者的病情稳定下来，1名患者的肝转移灶缩小超过50%。[文档2]",
+        "answer_accuracy": 1.0,
+        "faithfulness": 0.5,
+        "latency_ms": 4436.5,
+        "retrieved_ids": [
+          "64fa9b32b82641eb8ecc08f9",
+          "64fa9b27b82641eb8ecbe187"
+        ],
+        "hit_at_5": true,
+        "route": "hyde",
+        "route_reason": "low_confidence"
+      },
+      {
+        "query": "什么是'启明行动'？",
+        "doc_id": "64fa9b27b82641eb8ecbe14c",
+        "reference_answer": "无法推断",
+        "answer_preview": "根据提供的参考文档，\"启明行动\"的具体信息未在文档中找到。",
+        "answer_accuracy": 0.0,
+        "faithfulness": 0.0,
+        "latency_ms": 4597.3,
+        "retrieved_ids": [
+          "64fa9b2bb82641eb8ecbec4d",
+          "64fa9b2eb82641eb8ecbfab5",
+          "64fa9b2db82641eb8ecbf767",
+          "64fa9b2db82641eb8ecbf655",
+          "64fa9b2bb82641eb8ecbeb6b"
+        ],
+        "hit_at_5": false,
+        "route": "hyde",
+        "route_reason": "low_confidence"
+      },
+      {
+        "query": "启明行动是为了解决什么问题？",
+        "doc_id": "64fa9b27b82641eb8ecbe14c",
+        "reference_answer": "儿童青少年的近视问题",
+        "answer_preview": "启明行动是为了解决全球性问题。具体来说，它包括了全球发展倡议、全球安全倡议和全球文明倡议，旨在为全人类创造发展机遇、造福全人类的路径，并通过这些倡议推动全球合作以应对气候变化、非传统安全等问题。[文档",
+        "answer_accuracy": 0.0,
+        "faithfulness": 1.0,
+        "latency_ms": 4844.0,
+        "retrieved_ids": [
+          "64fa9b30b82641eb8ecc03f2",
+          "64fa9b30b82641eb8ecc0411",
+          "64fa9b2db82641eb8ecbf5c5",
+          "64fa9b2db82641eb8ecbf680",
+          "64fa9b2cb82641eb8ecbf31d"
+        ],
+        "hit_at_5": false,
+        "route": "hyde",
+        "route_reason": "low_confidence"
+      },
+      {
+        "query": "启明行动发布了什么文件？",
+        "doc_id": "64fa9b27b82641eb8ecbe14c",
+        "reference_answer": "《防控儿童青少年近视核心知识十条》",
+        "answer_preview": "启明行动未发布具体文件。根据提供的参考文档，启明行动与机器人产业和民营经济发展无关。",
+        "answer_accuracy": 0.0,
+        "faithfulness": 0.0,
+        "latency_ms": 4786.2,
+        "retrieved_ids": [
+          "64fa9b2eb82641eb8ecbfdd5",
+          "64fa9b2eb82641eb8ecbfb61",
+          "64fa9b2eb82641eb8ecbfb23",
+          "64fa9b2db82641eb8ecbf47d",
+          "64fa9b2eb82641eb8ecbfb6b"
+        ],
+        "hit_at_5": false,
+        "route": "hyde",
+        "route_reason": "low_confidence"
+      }
+    ]
+  },
+  "summary": {
+    "hyde_vs_naive_mrr_gain_pct": -37.5,
+    "adaptive_vs_naive_mrr_gain_pct": -41.2,
+    "adaptive_vs_hyde_mrr_gain_pct": -6.0,
+    "adaptive_hyde_trigger_rate": 1.0,
+    "adaptive_latency_saved_vs_hyde_ms": -419.3
+  }
+}
