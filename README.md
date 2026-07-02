@@ -1,6 +1,6 @@
 # RAG 企业知识库问答系统
 
-基于检索增强生成（Retrieval-Augmented Generation）的内部文档 QA 系统，支持 Naive RAG 与 HyDE 双路检索策略，提供 FastAPI 服务化部署。
+基于检索增强生成（Retrieval-Augmented Generation）的内部文档 QA 系统，支持Naive / HyDE / Adaptive HyDE / Hybrid 四路可插拔检索策略用于横向性能对比分析，统一采用粗召回 - 重排序两阶段检索流水线优化上下文质量，提供基于 FastAPI 构建的异步高性能推理服务。
 
 ## 技术栈
 
@@ -148,7 +148,7 @@ rm -rf \~/.cache/huggingface
 
 ## 实验评测
 
-在 **QuestAnswer1Doc** 中文单文档 QA 语料（2000 篇新闻 `.txt`）上，对 Naive / HyDE / Adaptive HyDE / **Hybrid** 四路检索进行对比评测。Hard 子集（Naive@5 未命中）约 **48/200（24%）**。
+在 **QuestAnswer1Doc** 中文单文档 QA 语料（2000 篇新闻 `.txt`，CUDA_RAG）上，对 Naive / HyDE / Adaptive HyDE / **Hybrid** 四路检索进行对比评测。Hard 子集（Naive@5 未命中）约 **48/200（24%）**。
 
 ### 快速运行
 
